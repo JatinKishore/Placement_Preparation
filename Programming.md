@@ -6,4 +6,4 @@ COMPLETE JAVA CODING PROBELMS WITH SOLUTION : [DSA LEVEL 2](https://youtube.com/
 
 COMPLETE C COURSE : [JENNY'S C LECTURES](https://youtube.com/playlist?list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S&feature=shared)
 
-CodeClub - A non-profit WhatsApp coding community started by me working everyday in Coding and Aptitude with Job Alerts. [Group Link](https://chat.whatsapp.com/IWa8mKJ4RGE27RbqQy4XRg)
+CodeClub - A non-profit WhatsApp coding community started by me, working everyday in Coding and Aptitude .also with Job Alerts. [Group Link](https://chat.whatsapp.com/IWa8mKJ4RGE27RbqQy4XRg)
