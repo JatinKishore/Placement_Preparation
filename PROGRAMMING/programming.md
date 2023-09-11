@@ -10,6 +10,9 @@ Time Complexity Finder : [Time Complexity AI](https://www.timecomplexity.ai/?id=
 
 CodeClub : A non-profit WhatsApp coding community started by me, working everyday in Coding and Aptitude .also with Job Alerts.[Official Website](https://codeclub.jatinkishore.repl.co/index.html) & [Group Link](https://chat.whatsapp.com/IWa8mKJ4RGE27RbqQy4XRg)
 
+CodeClub Solutions Playlist(video files):[Daily Coding]
+(https://youtube.com/playlist?list=PLz-zAvuE-NlRJ7I3JFClScZhIhzMPSpIM)
+
 CodeClub Daily Questions : [OnlineGDB Folder](https://onlinegdb.com/AyXcLocAz)
 
 FightClub : This is an Free Weekend Coding Contest with small cash Prize and Certifications. [join the group to participate](https://chat.whatsapp.com/CiFXBOUzmIy2SANVYletsQ)  &  [FigthClub Website](https://fightclub.jatinkishore.repl.co/)
