@@ -5,4 +5,4 @@ Guys I request you to explore all the files .You will find courses and playlists
 
 This is an open source project so my friends you can fork this repository and add some other courses that you find useful for career. Make a push request . For sure I will review it and update in this repository.
 
-Let's start the journey or share the path to journey
+Let's start a journey or share the path to journey
