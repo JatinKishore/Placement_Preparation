@@ -6,6 +6,8 @@ COMPLETE JAVA CODING PROBELMS WITH SOLUTION(hindi) : [DSA LEVEL 2](https://youtu
 
 COMPLETE C COURSE : [JENNY'S C LECTURES](https://youtube.com/playlist?list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S&feature=shared)
 
+PYTHON - [PYTHON FOR EVERYBODY](https://youtu.be/8DvywoWv6fI?feature=shared)
+
 JAVASCRIPT Essentials - [NAMASTE JAVASCRIPT](https://youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP&feature=shared)
 
 
