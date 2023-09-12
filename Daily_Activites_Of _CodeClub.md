@@ -11,6 +11,6 @@ In FightClub we conducted our Week 3 challenge and the winners are
 3.Jaya Suriya 
 
 **Date: 11/09/23**
-Today we worked on [Simple Equation](geeksforgeeks.org/simplification-questions-aptitude/) in aptitude and solved the [Day 9](https://onlinegdb.com/vBz25ofJC) question of CodeClub.
+Today we worked on [Simple Equation](geeksforgeeks.org/simplification-questions-aptitude/) in aptitude and solved the [Day 9](https://onlinegdb.com/vBz25ofJC) program of CodeClub.
 
 
