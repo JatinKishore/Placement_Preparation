@@ -11,7 +11,7 @@ In FightClub we conducted our Week 3 challenge and the winners are
 3.Jaya Suriya 
 
 **Date: 11/09/23**
-Today we worked on **[Simple Equation]**(geeksforgeeks.org/simplification-questions-aptitude/) in aptitude and solved the [Day 9](https://onlinegdb.com/vBz25ofJC) program of CodeClub.We decided to run this week of coding on to excel on Patterns.
+Today we worked on [Simple Equation](geeksforgeeks.org/simplification-questions-aptitude/) in aptitude and solved the [Day 9](https://onlinegdb.com/vBz25ofJC) program of CodeClub.We decided to run this week of coding on to excel on Patterns.
 
 **Date: 12/09/23**
 Today we worked on **Averages**
