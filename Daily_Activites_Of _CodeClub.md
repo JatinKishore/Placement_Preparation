@@ -20,7 +20,7 @@ Today we worked on **Averages**
 [GFG ](https://www.geeksforgeeks.org/average/)
 & we solved [Day-10](https://onlinegdb.com/Z-dPzp-8j) coding problem on pattern.
 
-**Date: 12/09/23**
+**Date: 13/09/23**
 Today we make made an analyze and find that we are moving too fast in Aptitude topics and we need to slow down the process and we ned to spent 2 days for a topic to master and move on to the next. So there is no Aps topic today. But We solved our [Day-11](https://onlinegdb.com/IZZBKGqnu) Coding Question on **Palindrome Triangle Pattern**.
 
 
