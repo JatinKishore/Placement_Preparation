@@ -6,9 +6,9 @@ We added additional Aptitude and Placements preparation series along with Coding
 We solved the [Day 8](https://onlinegdb.com/uLVTaDNC3) question of CodeClub
 We covered the 'Percentage' topic in Aptitude via [indiabix](https://www.indiabix.com/aptitude/percentage/formulas) & [GFG](https://www.geeksforgeeks.org/percentage-aptitude-questions/).
 In FightClub we conducted our Week 3 challenge and the winners are<br>
-1.Balaji 
-2.Balaji S 
-3.Jaya Suriya 
+1.Balaji <br>
+2.Balaji S <br>
+3.Jaya Suriya <br>
 
 **Date: 11/09/23**
 Today we worked on [Simple Equation](geeksforgeeks.org/simplification-questions-aptitude/) in aptitude and solved the [Day 9](https://onlinegdb.com/vBz25ofJC) program of CodeClub.We decided to run this week of coding on to excel on Patterns.
