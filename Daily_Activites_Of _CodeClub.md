@@ -15,8 +15,8 @@ Today we worked on **[Simple Equation]**(geeksforgeeks.org/simplification-questi
 
 **Date: 12/09/23**
 Today we worked on **Averages**
-[Feel Free to Learn(Vedio)](https://www.feelfreetolearn.com/course?Id=5afd5251a2c5ed42956c37b0)
-[India Bix](https://www.indiabix.com/aptitude/average/formulas)
+[Feel Free to Learn(Vedio)](https://www.feelfreetolearn.com/course?Id=5afd5251a2c5ed42956c37b0),
+[India Bix](https://www.indiabix.com/aptitude/average/formulas),
 [GFG ](https://www.geeksforgeeks.org/average/)
 & we solved [Day-10](https://onlinegdb.com/Z-dPzp-8j) coding problem on pattern.
 
