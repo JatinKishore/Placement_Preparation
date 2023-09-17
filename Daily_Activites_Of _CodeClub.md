@@ -23,6 +23,44 @@ Today we worked on **Averages**
 **Date: 13/09/23**
 Today we make made an analyze and find that we are moving too fast in Aptitude topics and we need to slow down the process and we ned to spent 2 days for a topic to master and move on to the next. So there is no Aps topic today. But We solved our [Day-11](https://onlinegdb.com/IZZBKGqnu) Coding Question on **Palindrome Triangle Pattern**.
 
+**Date: 14/09/23**
+Today we worked on [Day 12 ](https://onlinegdb.com/47KNi9vnb) coding challenge. Printing **Floyd's Triangle** and started "RATIO AND PROPORTIONS" in Aptitude
+[Feel Free to Learn] (https://www.feelfreetolearn.com/course?Id=5afd8150a2c5ed42956c3827),
+[India Bix](https://www.indiabix.com/aptitude/ratio-and-proportion/formulas)&
+[GFG ]( https://www.geeksforgeeks.org/ratio-and-proportion-gq/)
+
+**Date: 15/09/23**
+Today we worked on [Day 13 ](https://onlinegdb.com/smOu14F4m) coding challenge. Printing **HOLLOW HOURGLASS Pattern using Alphabets**. 
+
+**Date: 16/09/23**
+Conducted **FightClub Week 4 Challenge** and shortlisted the Finalists of the week -> **FightClub Finalist of this week**
+
+Abinesh M
+
+Balaji P
+
+Balaji S
+
+Nandhini
+
+Venu
+
+Harivignesh
+
+Muthukumar
+
+Jaya Suriya.
+
+We solved our [Day-14](https://onlinegdb.com/G621NLhjA) Coding Question on **Inverted Full Triangel using Alphabets**.
+
+**Date: 17/09/23**
+The **Winners of FightClub Week-4 Contest** are 1st Balaji P,2nd J Dinesh and 3rd Balaji S.
+Solved the [Day 15](https://onlinegdb.com/z2nSHpHFDQ) coding Challenge on **Pascal's Triangle**
+Today we will be working on a new topic named **Partnership**
+[Free Feel to Learn] (https://www.feelfreetolearn.com/course?Id=5afd551aa2c5ed42956c37c0),
+[IndiaBix](https://www.indiabix.com/aptitude/partnership/formulas)&
+[GFG](https://www.geeksforgeeks.org/partnership/)
+
 
 
 
