@@ -33,8 +33,7 @@ Today we worked on [Day 12 ](https://onlinegdb.com/47KNi9vnb) coding challenge. 
 Today we worked on [Day 13 ](https://onlinegdb.com/smOu14F4m) coding challenge. Printing **HOLLOW HOURGLASS Pattern using Alphabets**. 
 
 **Date: 16/09/23**
-Conducted **FightClub Week 4 Challenge** and shortlisted the Finalists of the week <br>
-
+Conducted **FightClub Week 4 Challenge** and shortlisted the Finalists of the week <br><br>
 **FightClub Finalist of this week**
 
 Abinesh M<br>
