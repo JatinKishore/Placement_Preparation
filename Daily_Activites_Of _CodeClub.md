@@ -33,21 +33,21 @@ Today we worked on [Day 12 ](https://onlinegdb.com/47KNi9vnb) coding challenge. 
 Today we worked on [Day 13 ](https://onlinegdb.com/smOu14F4m) coding challenge. Printing **HOLLOW HOURGLASS Pattern using Alphabets**. 
 
 **Date: 16/09/23**
-Conducted **FightClub Week 4 Challenge** and shortlisted the Finalists of the week -> **FightClub Finalist of this week**
+Conducted **FightClub Week 4 Challenge** and shortlisted the Finalists of the week <br> **FightClub Finalist of this week**
 
-Abinesh M
-Balaji P
-Balaji S
-Nandhini
-Venu
-Harivignesh
-Muthukumar
-Jaya Suriya.
+Abinesh M<br>
+Balaji P<br>
+Balaji S<br>
+Nandhini<br>
+Venu<br>
+Harivignesh<br>
+Muthukumar<br>
+Jaya Suriya.<br>
 
 We solved our [Day-14](https://onlinegdb.com/G621NLhjA) Coding Question on **Inverted Full Triangel using Alphabets**.
 
 **Date: 17/09/23**
-The **Winners of FightClub Week-4 Contest** are 1st Balaji P,2nd J Dinesh and 3rd Balaji S.
+The **Winners of FightClub Week-4 Contest** are<br> 1st Balaji P<br>2nd J Dinesh<br> 3rd Balaji S<br>
 Solved the [Day 15](https://onlinegdb.com/z2nSHpHFDQ) coding Challenge on **Pascal's Triangle**
 Today we will be working on a new topic named **Partnership**
 [Free Feel to Learn] (https://www.feelfreetolearn.com/course?Id=5afd551aa2c5ed42956c37c0),
