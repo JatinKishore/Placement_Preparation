@@ -24,7 +24,7 @@ Today we worked on **Averages**
 Today we make made an analyze and find that we are moving too fast in Aptitude topics and we need to slow down the process and we ned to spent 2 days for a topic to master and move on to the next. So there is no Aps topic today. But We solved our [Day-11](https://onlinegdb.com/IZZBKGqnu) Coding Question on **Palindrome Triangle Pattern**.
 
 **Date: 14/09/23**
-Today we worked on [Day 12 ](https://onlinegdb.com/47KNi9vnb) coding challenge. Printing **Floyd's Triangle** and started "RATIO AND PROPORTIONS" in Aptitude
+Today we worked on [Day 12 ](https://onlinegdb.com/47KNi9vnb) coding challenge. Printing **Floyd's Triangle** and started **RATIO AND PROPORTIONS** in Aptitude
 [Feel Free to Learn](https://www.feelfreetolearn.com/course?Id=5afd8150a2c5ed42956c3827),
 [India Bix](https://www.indiabix.com/aptitude/ratio-and-proportion/formulas)&
 [GFG ]( https://www.geeksforgeeks.org/ratio-and-proportion-gq/)
