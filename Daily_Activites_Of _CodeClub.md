@@ -50,7 +50,7 @@ We solved our [Day-14](https://onlinegdb.com/G621NLhjA) Coding Question on **Inv
 **Date: 17/09/23**
 The **Winners of FightClub Week-4 Contest** are<br><br> 1st Balaji P<br>2nd J Dinesh<br> 3rd Balaji S<br>
 
-Solved the [Day 15](https://onlinegdb.com/z2nSHpHFDQ) coding Challenge on **Pascal's Triangle**<br>
+Solved the [Day 15](https://onlinegdb.com/0FAmi3-qf) coding Challenge on **Pascal's Triangle**<br>
 Today we will be working on a new topic named **Partnership**
 [Free Feel to Learn](https://www.feelfreetolearn.com/course?Id=5afd551aa2c5ed42956c37c0),
 [IndiaBix](https://www.indiabix.com/aptitude/partnership/formulas)&
