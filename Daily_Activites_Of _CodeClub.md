@@ -36,19 +36,12 @@ Today we worked on [Day 13 ](https://onlinegdb.com/smOu14F4m) coding challenge. 
 Conducted **FightClub Week 4 Challenge** and shortlisted the Finalists of the week -> **FightClub Finalist of this week**
 
 Abinesh M
-
 Balaji P
-
 Balaji S
-
 Nandhini
-
 Venu
-
 Harivignesh
-
 Muthukumar
-
 Jaya Suriya.
 
 We solved our [Day-14](https://onlinegdb.com/G621NLhjA) Coding Question on **Inverted Full Triangel using Alphabets**.
