@@ -56,6 +56,9 @@ Today we will be working on a new topic named **Partnership**
 [IndiaBix](https://www.indiabix.com/aptitude/partnership/formulas)&
 [GFG](https://www.geeksforgeeks.org/partnership/)
 
+**Date: 18/09/23**
+Worked on [Day-16](https://onlinegdb.com/-85u6e15G)**Hollow Rhombus using Alphabets** pattern type question.
+
 
 
 
