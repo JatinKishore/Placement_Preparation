@@ -75,18 +75,18 @@ Worked on [Day-20](https://onlinegdb.com/erXd_2FO4) **Top to Bottom Triangle For
 Worked on [Day-21](https://onlinegdb.com/R8Bb0Cqh9) **Zero to One Triangle Pattern** pattern type question.
 Started WEEK - 5 FIGHTCLUB CHALLENGE.
 The finalist of the week are:
-Tharani
-Abinesh
-Aswin Lakshman
-Balaji P
-Balaji S
-Giri Township
-Hari Vignesh
-J Dinesh
-Jaya Suriya
-Manoj Kumar
-Muthu Kumar
-Nandhini
+Tharani,
+Abinesh,
+Aswin Lakshman,
+Balaji P,
+Balaji S,
+Giri Township,
+Hari Vignesh,
+J Dinesh,
+Jaya Suriya,
+Manoj Kumar,
+Muthu Kumar,
+Nandhini,
 Venu
 
 **Date: 24/09/23**
