@@ -59,6 +59,49 @@ Today we will be working on a new topic named **Partnership**
 **Date: 18/09/23**
 Worked on [Day-16](https://onlinegdb.com/-85u6e15G) **Hollow Rhombus using Alphabets** pattern type question.
 
+**Date: 19/09/23**
+Worked on [Day-17](https://onlinegdb.com/5rSjMeAzHw) **Built a Right Side Aligned Right Angle Triangle using Alphabets** pattern type question.
+
+**Date: 20/09/23**
+Worked on [Day-18](https://onlinegdb.com/WM_Mg3aIE) **Square Colab with X pattern.** pattern type question.
+
+**Date: 21/09/23**
+Worked on [Day-19](https://onlinegdb.com/Vr1f3wETy) **Corner to Corner Triangle formation using Numbers** pattern type question.
+
+**Date: 22/09/23**
+Worked on [Day-20](https://onlinegdb.com/erXd_2FO4) **Top to Bottom Triangle Formation using Numbers** pattern type question.
+
+**Date: 23/09/23**
+Worked on [Day-21](https://onlinegdb.com/R8Bb0Cqh9) **Zero to One Triangle Pattern** pattern type question.
+Started WEEK - 5 FIGHTCLUB CHALLENGE.
+The finalist of the week are:
+Tharani
+Abinesh
+Aswin Lakshman
+Balaji P
+Balaji S
+Giri Township
+Hari Vignesh
+J Dinesh
+Jaya Suriya
+Manoj Kumar
+Muthu Kumar
+Nandhini
+Venu
+
+**Date: 24/09/23**
+Worked on [Day-22](https://onlinegdb.com/6LAnfnH0n) **Walls are weak** pattern type question.
+  **Week-5 FightClub Winners** are.<br>
+      1. Balaji S<br>
+      2. Manoj Kumar<br>
+      3. Jaya Suriya<br>
+
+**Date: 25/09/23**
+Worked on [Day-23](https://onlinegdb.com/SuwiF0vr-) **Transpose an Array** Array type question.
+Belated celebrations for 50+ members in our CodeClub community.
+
+
+
 
 
 
