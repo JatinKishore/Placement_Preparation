@@ -100,6 +100,12 @@ Worked on [Day-22](https://onlinegdb.com/6LAnfnH0n) **Walls are weak** pattern t
 Worked on [Day-23](https://onlinegdb.com/SuwiF0vr-) **Transpose an Array** Array type question.
 Belated celebrations for 50+ members in our CodeClub community.
 
+**Date: 26/09/23**
+Worked on [Day-24](https://onlinegdb.com/IEAOlMVOu) **Given an array arr of n elements that is first strictly increasing and then maybe strictly decreasing,
+find the maximum element in the array.
+Note: If the array is increasing then just print the last element will be the maximum value.** Array type question.
+Belated celebrations for 50+ members in our CodeClub community.
+
 
 
 
