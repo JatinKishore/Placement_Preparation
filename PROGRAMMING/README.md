@@ -6,4 +6,4 @@ Be strong in DSA and OOPS concepts..
 
 Algorithms - [Abdul Bari](https://youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&feature=shared)
 
-You can show you python and javascript skills through your project works
+You can show your python and javascript skills through your project works
