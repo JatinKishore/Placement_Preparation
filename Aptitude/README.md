@@ -1,1 +1,3 @@
-The important topics for Aptitude are as follows. You can learn other topics after completing the below topics first
+Complete Aptitude Preparation in Tamil and English - Feel Free to Learn
+
+Practicing Aptitude - Indiabix
