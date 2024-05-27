@@ -21,7 +21,7 @@
 - Azure- [azure](https://learn.microsoft.com/en-us/training/)
 - CISCO - [CISCO Academy](https://www.cisco.com/c/m/en_sg/partners/cisco-networking-academy/index.html)
 - [Coursera](https://www.coursera.org/)
-(this course from aws is removed so i added the course in coursera)- [Cloud Practioner Essentials](https://www.coursera.org/learn/aws-cloud-practitioner-essentials)
+- (this course from aws is removed so i added the course in coursera)- [Cloud Practioner Essentials](https://www.coursera.org/learn/aws-cloud-practitioner-essentials)
 ### Paid:
 - AZURE
 - AWS
