@@ -35,6 +35,7 @@ Complete Tips to Crack Sify : [Click here](https://youtu.be/slboC5N5Sxs?feature=
 ### FullStack based task:
   - Build a complete hotel management website
 
-![image](https://github.com/JatinKishore/Placment_Preparation/assets/122717391/d87d9aca-8107-4033-86c5-f5e36d6108cb)
+![image](https://github.com/JatinKishore/Placment_Preparation/assets/122717391/e05349fb-27db-4362-8b89-2725522a1719)
+
 
   
