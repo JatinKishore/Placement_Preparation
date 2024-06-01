@@ -5,11 +5,11 @@ Complete Tips to Crack Presidio : [Click here](https://youtu.be/slboC5N5Sxs?feat
 ### Aptitude:
 - Study: [Feel Free to Learn](https://www.feelfreetolearn.com/)
 - Common Aps Topic :
-  	Probability 
-  	Find x from the given equation/condition
-  	Distance and Time
-  	Percentage	
-  	Permutation and Combination
+  	Probability <br>
+  	Find x from the given equation/condition <br>
+  	Distance and Time <br>
+  	Percentage <br>	
+  	Permutation and Combination <br>
 - Practice: [India Bix](https://www.indiabix.com/)
 ### Coding Snippet:
 - Coding Snippets : [code.io](https://youtube.com/playlist?list=PLhP5RsB7fhE3h5MvxjC2MHPbCjcL_8-e5&feature=shared) , Learning coding snippets of other languages follow pdfs in PRESIDIO folder
@@ -20,26 +20,26 @@ Complete Tips to Crack Presidio : [Click here](https://youtu.be/slboC5N5Sxs?feat
 - Coding Questions : [Striver's Datasheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 - Common Topics:
   Patterns
-	Recursion
-	Binary Search
-	Arrays, 2D Arrays and ArrayList
-	HashMap
-	Strings
+	Recursion <br>
+	Binary Search <br>
+	Arrays, 2D Arrays and ArrayList <br>
+	HashMap <br>
+	Strings <br>
 
 
 ## Third Round:
 ### Advanced Coding Question:
 - Coding Questions : [Striver's Datasheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 - Common Topics:
-  Recursion & Backtracking
-	Sliding Window
-	LinkedList
-	Stack and Queue
-	Sub-array & Sub-String
-	Binary Search
-	Arrays and ArrayList
-	HashMap
-	Strings
+  	Recursion & Backtracking <br>
+	Sliding Window <br>
+	LinkedList <br>
+	Stack and Queue <br>
+	Sub-array & Sub-String <br>
+	Binary Search <br>
+	Arrays and ArrayList <br>
+	HashMap <br>
+	Strings <br>
 
 ### Application Project: 
   - Build a Movie Ticketing Booking Application - [link](https://youtube.com/playlist?list=PLQMGOpcYnHOV1u0J9OBVwvdQm79PIsbxi&feature=shared)
