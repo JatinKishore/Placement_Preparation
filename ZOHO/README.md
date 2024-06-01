@@ -4,7 +4,7 @@ Complete Tips to Crack Presidio : [Click here](https://youtu.be/slboC5N5Sxs?feat
 ## First Round:
 ### Aptitude:
 - Study: [Feel Free to Learn](https://www.feelfreetolearn.com/)
-- Common Aps Topic :
+- Common Aps Topic : <br>
   	Probability <br>
   	Find x from the given equation/condition <br>
   	Distance and Time <br>
@@ -12,20 +12,18 @@ Complete Tips to Crack Presidio : [Click here](https://youtu.be/slboC5N5Sxs?feat
   	Permutation and Combination <br>
 - Practice: [India Bix](https://www.indiabix.com/)
 ### Coding Snippet:
-- Coding Snippets : [code.io](https://youtube.com/playlist?list=PLhP5RsB7fhE3h5MvxjC2MHPbCjcL_8-e5&feature=shared) , Learning coding snippets of other languages follow pdfs in PRESIDIO folder
-
+- Coding Snippets : [code.io](https://youtube.com/playlist?list=PLhP5RsB7fhE3h5MvxjC2MHPbCjcL_8-e5&feature=shared)
 
 ## Second Round:
 ### Coding Question:
 - Coding Questions : [Striver's Datasheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 - Common Topics:
-  Patterns
+  Patterns <br>
 	Recursion <br>
 	Binary Search <br>
 	Arrays, 2D Arrays and ArrayList <br>
 	HashMap <br>
 	Strings <br>
-
 
 ## Third Round:
 ### Advanced Coding Question:
