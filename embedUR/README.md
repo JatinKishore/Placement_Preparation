@@ -136,38 +136,63 @@ Digital Modulation in real time applications
 Call by reference (c programming)
 
 Flip flop and latch difference
+
 8086 pin functions
+
 Maxwell's equation
-Ale 
+
+Ale . 
 Thevenin's and norton's difference 
+
 Fourier transform and series
 
+
 What is QPSK? 
+
 What is level triggered and edge triggered? 
+
 In JK flip-flop both the inputs high means what happened? 
+
 What is ALE? 
+
 Thevenin's and Norton's difference
 
 Digital modulation (types and explain any one type in detail)  
+
 What is fourier transform 
+
 What is fourier series 
+
 Basic of 8086
+
 Basic of CAO
+
 Types of circuit theory
 
 1 how is amplifier converted into oscillator.
+
 2 what are the basic laws used in emf
+
 3 explain one digital modulation method in detail.
+
 4 everything about latches and flip flops and it's types
+
 5 diff btwn call by value call by reference
+
 6 8086 pins and it's functions 
+
 7 what is ale.
 
 Maxwell laws
+
 8086 basics
+
 Concepts in cao
+
 Flip flop and latches
+
 Circuit theorems
+
 Fourier transforms
 
 ![image](https://github.com/JatinKishore/Placment_Preparation/assets/122717391/71493f55-d4f2-42fb-a42e-aa7696914426)
