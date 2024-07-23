@@ -18,7 +18,7 @@ Complete Tips to Crack Accenture : [Video Link](https://youtu.be/MywKpyOg1rI)
 - Coding Snippets : [code.io](https://youtube.com/playlist?list=PLhP5RsB7fhE3h5MvxjC2MHPbCjcL_8-e5&feature=shared)
 
 #### Technical MCQs 
-- Study Resource => [Sanfoundary](https://www.sanfoundry.com/)
+Study Resource :  [Sanfoundary](https://www.sanfoundry.com/)
 ##### Topics
 - Microsoft 
 - Cloud
@@ -30,38 +30,13 @@ Complete Tips to Crack Accenture : [Video Link](https://youtu.be/MywKpyOg1rI)
 #### Coding Question:
 - Coding Questions : [Striver's Datasheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 ### Coding Round
-- Common Topics:
+- Common Topics: <br>
   Patterns <br>
-	Recursion <br>
 	Binary Search <br>
-	Arrays, 2D Arrays and ArrayList <br>
-	HashMap <br>
+	Arrays & 2D Arrays<br>
 	Strings <br>
 
 ## Third Round:
-### Advanced Coding Question:
-- Coding Questions : [Striver's Datasheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
-- Common Topics:
-  	Recursion & Backtracking <br>
-	Sliding Window <br>
-	LinkedList <br>
-	Stack and Queue <br>
-	Sub-array & Sub-String <br>
-	Binary Search <br>
-	Arrays and ArrayList <br>
-	HashMap <br>
-	Strings <br>
-
-### Application Project: 
-  - Build a Movie Ticketing Booking Application - [link](https://youtube.com/playlist?list=PLQMGOpcYnHOV1u0J9OBVwvdQm79PIsbxi&feature=shared)
-  - Build an Online Taxi booking Application - [link](https://youtube.com/playlist?list=PLSelijxfOX7qv6GuVz6xemagK1uZYJ0ZN&feature=shared)
-  - Build a Hotel Management Application - [link](https://youtube.com/playlist?list=PL_6klLfS1WqEs4e9GJReOgCU7EM4UnDr8&feature=shared)
-
-### CLI based Games Project:
-  - Chess - [link](https://youtu.be/jzCxywhTAUI?feature=shared)
-  - Ping Pong - [link](https://youtu.be/oLirZqJFKPE?feature=shared)
-  - Tedrix - [link](https://youtu.be/dgVh6S8X25k?feature=shared)
-  - Snake Game - [link](https://youtu.be/bI6e6qjJ8JQ?feature=shared)
-  - Tic Tac Toe - [link](https://youtu.be/jlLNXmi4Nmw?feature=shared)
-    ![image](https://github.com/JatinKishore/Placment_Preparation/assets/122717391/270c0431-0ed5-4464-a50d-2ac39f422898)
+### Communication Question:
+- Sample Video : [youtube](https://youtu.be/dOX4khHBadQ?si=afQd-xzClDsF2HkA)
 
