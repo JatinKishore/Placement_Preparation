@@ -1,22 +1,32 @@
 
-Complete Tips to Crack ZOHO : [Click here](https://youtu.be/9M0bbkk7ggk)
+Complete Tips to Crack Accenture : [Video Link](https://youtu.be/MywKpyOg1rI)
 
 ## First Round:
-### Aptitude:
-- Study: [Feel Free to Learn](https://www.feelfreetolearn.com/)
-- Common Aps Topic : <br>
-  	Probability <br>
-  	Find x from the given equation/condition <br>
-  	Distance and Time <br>
-  	Percentage <br>	
-  	Permutation and Combination <br>
-- Practice: [India Bix](https://www.indiabix.com/)
+### Cognitive Ability:
+
+#### Websites:
+- [GFG](https://www.geeksforgeeks.org/aptitude-questions-and-answers/)
+- [IndiaBix](https://www.indiabix.com/)  
+- [Prepinsta](https://prepinsta.com/accenture-previous-papers/)
+#### Youtube:
+- Aptitude Ability: [Feel Free to Lear](https://www.feelfreetolearn.com/)
+- English Ability: [Career Ride](https://youtube.com/playlist?list=PLpyc33gOcbVBbD8Vfy-gCbivjSSHbMpUX&si=QnKV9kYVjrr43pxv)
+
 ### Coding Snippet:
 - Coding Snippets : [code.io](https://youtube.com/playlist?list=PLhP5RsB7fhE3h5MvxjC2MHPbCjcL_8-e5&feature=shared)
 
-## Second Round:
-### Coding Question:
+### Technical Ability:
+#### Coding Question:
 - Coding Questions : [Striver's Datasheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
+#### Technical MCQs 
+- Microsoft 
+- Cloud
+- Networks
+- Security
+- Study Resource => [Sanfoundary](https://www.sanfoundry.com/)
+  
+## Second Round:
+### Coding Round
 - Common Topics:
   Patterns <br>
 	Recursion <br>
