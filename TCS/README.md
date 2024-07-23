@@ -1,2 +1,2 @@
 ### Not Yet Updated Completetly. 
-# Now you have previous year and sample Question Papers and Answers
+# Now you have Previous & Sample Question Papers and Answers
