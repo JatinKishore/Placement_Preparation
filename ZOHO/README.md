@@ -12,20 +12,23 @@ Complete Tips to Crack Accenture : [Video Link](https://youtu.be/MywKpyOg1rI)
 - Aptitude Ability: [Feel Free to Lear](https://www.feelfreetolearn.com/)
 - English Ability: [Career Ride](https://youtube.com/playlist?list=PLpyc33gOcbVBbD8Vfy-gCbivjSSHbMpUX&si=QnKV9kYVjrr43pxv)
 
+
+### Technical Ability:
 ### Coding Snippet:
 - Coding Snippets : [code.io](https://youtube.com/playlist?list=PLhP5RsB7fhE3h5MvxjC2MHPbCjcL_8-e5&feature=shared)
 
-### Technical Ability:
-#### Coding Question:
-- Coding Questions : [Striver's Datasheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 #### Technical MCQs 
+- Study Resource => [Sanfoundary](https://www.sanfoundry.com/)
+##### Topics
 - Microsoft 
 - Cloud
 - Networks
 - Security
-- Study Resource => [Sanfoundary](https://www.sanfoundry.com/)
+
   
 ## Second Round:
+#### Coding Question:
+- Coding Questions : [Striver's Datasheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 ### Coding Round
 - Common Topics:
   Patterns <br>
