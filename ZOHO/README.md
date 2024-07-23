@@ -14,7 +14,7 @@ Complete Tips to Crack Accenture : [Video Link](https://youtu.be/MywKpyOg1rI)
 
 
 ### Technical Ability:
-### Coding Snippet:
+#### Coding Snippet:
 - Coding Snippets : [code.io](https://youtube.com/playlist?list=PLhP5RsB7fhE3h5MvxjC2MHPbCjcL_8-e5&feature=shared)
 
 #### Technical MCQs 
