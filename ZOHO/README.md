@@ -27,9 +27,9 @@ Study Resource :  [Sanfoundary](https://www.sanfoundry.com/)
 
   
 ## Second Round:
-#### Coding Question:
-- Coding Questions : [Striver's Datasheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
+
 ### Coding Round
+- Coding Questions : [Striver's Datasheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 - Common Topics: <br>
   Patterns <br>
 	Binary Search <br>
