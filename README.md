@@ -16,5 +16,5 @@
 ### Request
 
 - A common humble request for all users, This repo is nothing infront of the study materials what you have in hand. My friend if you have some time, just fork this repo and add some materials for your fellow developers/students.
-- If you have any queries contact me in personal via linkdln - [Jatin Kishore M](www.linkedin.com/in/jatinkishore-m)
+- If you have any queries contact me in personal via linkedln - [Jatin Kishore M](www.linkedin.com/in/jatinkishore-m)
 - 'Star'⭐ the repo. This can motivate us to 'commit' more materials into the repo.
