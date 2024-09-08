@@ -6,7 +6,7 @@ The selection process for Deltax consists of three main rounds. Below is a detai
 
 ---
 
-### 1. MCQ Round
+#### 1. MCQ Round
 
 - **Focus**: 
   - Programming foundation
@@ -17,7 +17,7 @@ The selection process for Deltax consists of three main rounds. Below is a detai
 
 ---
 
-### 2. Coding Round
+#### 2. Coding Round
 
 - **Number of Questions**: 4 to 5 coding questions.
 - **Difficulty**: Easy to medium level.
@@ -25,7 +25,7 @@ The selection process for Deltax consists of three main rounds. Below is a detai
 
 ---
 
-### 3. Interview Round
+#### 3. Interview Round
 
 - **Format**: Combination of explaining a previous solution and solving new questions.
   
