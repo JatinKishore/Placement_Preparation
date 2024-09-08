@@ -33,4 +33,4 @@ The selection process for Deltax consists of three main rounds. Below is a detai
   - **Explanation**: Explain one of the questions solved in the previous coding round.
   - **Coding**: Solve 1 or 2 LeetCode medium-level questions.
   - **Concepts**: Answer basic programming and software design-related questions.
-
+---
