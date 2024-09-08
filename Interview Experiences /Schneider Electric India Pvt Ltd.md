@@ -1,26 +1,29 @@
-# Schneider Electric Campus Recruitment - VJTI, Matunga, Mumbai (14th September 2011)
+# Schneider Electric India Pvt Ltd.md
+
+
+## Schneider Electric Campus Recruitment - VJTI, Matunga, Mumbai (14th September 2011)
 
 Schneider Electric visited VJTI, Matunga, Mumbai for campus recruitment on 14th September 2011. The package offered was **4.75 LPA (CTC)**. Below is a detailed breakdown of the selection process:
 
 ---
 
-## 1. Technical + Analytical Aptitude
+### 1. Technical + Analytical Aptitude
 
 The aptitude test consisted of **60 questions** divided into two sections:
 - **Technical (Electronics)**: 30 questions
 - **Analytical (Quantitative + Data Interpretation + Logical Puzzles)**: 30 questions
 
-### Time Allotted
+#### Time Allotted
 - **60 minutes**
 
-### Technical Section
+#### Technical Section
 Covered topics such as:
 - Control Systems
 - OP-AMPS
 - Zener Diode
 - Transistors
 
-### Analytical Section
+#### Analytical Section
 - **Difficulty**: CAT level
 - Topics included:
   - Data Interpretation
@@ -29,19 +32,19 @@ Covered topics such as:
 
 ---
 
-## 2. Group Discussion (GD)
+### 2. Group Discussion (GD)
 
-### Topic
+#### Topic
 - **Business ethics in the corporate world: A passing fad?**
 
-### Time Allotted
+#### Time Allotted
 - **15 minutes**
 
 ---
 
-## 3. Technical Interview
+### 3. Technical Interview
 
-### Questions Asked:
+#### Questions Asked:
 
 **A. Flip Flops**
 - Draw J-K flip flop and S-R flip flop using NAND gates.
@@ -67,9 +70,9 @@ Covered topics such as:
 
 ---
 
-## 4. HR Interview
+### 4. HR Interview
 
-### Questions Asked:
+#### Questions Asked:
 
 **A. Tell me about yourself.**
 
@@ -84,11 +87,15 @@ Covered topics such as:
 
 ---
 
-## Final Selection
+### Final Selection
 
 At the end of the recruitment process, I was happy to be selected for **Schneider Electric India** along with:
 - **3 other students from Electronics**
 - **2 students from Electricals**
 
 ---
+
+## 2. Schneider Electric Interview Experience
+
+- Interview Experience : [GFG](https://www.geeksforgeeks.org/schneider-electric-internship-interview-experience/)
 
