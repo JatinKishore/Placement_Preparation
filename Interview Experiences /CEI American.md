@@ -1,6 +1,6 @@
 # CEI America Interview Process
 
-<span style="color:red">## 1. CEI America Interview Process</span>
+## I. CEI America Interview Process
 
 The selection process for CEI America consists of multiple rounds, including aptitude, technical, and programming challenges. Below is a detailed breakdown of each round:
 
