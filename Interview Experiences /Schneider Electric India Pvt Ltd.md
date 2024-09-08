@@ -1,7 +1,7 @@
 # Schneider Electric India Pvt Ltd.md
 
 
-## Schneider Electric Campus Recruitment - VJTI, Matunga, Mumbai (14th September 2011)
+## 1. Schneider Electric Campus Recruitment 
 
 Schneider Electric visited VJTI, Matunga, Mumbai for campus recruitment on 14th September 2011. The package offered was **4.75 LPA (CTC)**. Below is a detailed breakdown of the selection process:
 
