@@ -28,7 +28,7 @@ If you are attending Tech Mahindra's on-campus recruitment, the process will con
   - Write a program to calculate the sum of an array.
   - Write a program to find prime numbers.
 
----
+
 
 #### 4. Fourth Round: Technical HR
 
@@ -44,6 +44,4 @@ If you are attending Tech Mahindra's on-campus recruitment, the process will con
   - Personal details.
   - Location preference.
 
-
-
-Prepare thoroughly for each round by focusing on aptitude, English comprehension, basic coding skills, and both technical and general HR questions.
+---
