@@ -1,16 +1,16 @@
 # Tech Mahindra
-
+---
 ## I. Tech Mahindra Interview Process
 If you are attending Tech Mahindra's on-campus recruitment, the process will consist of **5 rounds**. Below is a detailed breakdown:
 
----
+
 
 #### 1. First Round: Aptitude
 
 - **Focus**: 
   - Basic aptitude questions.
 
----
+
 
 #### 2. Second Round: English Comprehension
 
@@ -20,7 +20,6 @@ If you are attending Tech Mahindra's on-campus recruitment, the process will con
     - Listen to an audio and write down what you heard.
     - Listen to an audio with missing words and fill in the blanks.
 
----
 
 #### 3. Third Round: Coding
 
@@ -37,7 +36,7 @@ If you are attending Tech Mahindra's on-campus recruitment, the process will con
   - Basic to medium level programming questions, both theoretical and coding.
 - **Duration**: 30-40 minutes.
 
----
+
 
 #### 5. Fifth Round: General HR
 
@@ -45,6 +44,6 @@ If you are attending Tech Mahindra's on-campus recruitment, the process will con
   - Personal details.
   - Location preference.
 
----
+
 
 Prepare thoroughly for each round by focusing on aptitude, English comprehension, basic coding skills, and both technical and general HR questions.
