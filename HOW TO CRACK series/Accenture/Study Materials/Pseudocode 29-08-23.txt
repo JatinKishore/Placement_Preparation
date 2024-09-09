@@ -1,0 +1,751 @@
+1.What will be the output of the following pseudocode?
+
+Integer a
+
+for (a=1024 ; a ; a>>=1)//a=512>>1///
+    
+	Display a //1024 512 256 128 64 32 16 8 4 2 1
+
+End for
+
+
+
+1.What will be the output of the following pseudocode?
+1 Integer a, b, c
+2 Set a=2, b=6, c=8
+3 a=(10+9)+c //a=27
+4 if((c+b)>(a-c)) //if(14 > 19) 
+5 a=b+c
+6 b=b+b
+7 End if
+8 Print a+b+c// 27+6+8=41
+
+A. 23
+
+B. 41
+
+C. 48
+
+D. 58
+
+Answer: B
+
+2.What will be the output of the following pseudocode for a=0, b=2, c=10?
+
+2 Integer funn (Integer a, Integer b, Integer c)
+
+3 b=7+a // b=7
+
+4 a=(a+c)+a //a=10
+ 
+5 b=(b+b)+c //b =24
+
+6 c=1+b //c=1+24=25
+
+7 return a+b+c //10+24+25=59
+
+8 End function funn()
+
+A. 59 
+
+B. 68
+
+C. 70
+
+D. 39
+
+Answer: A
+
+3.What will be the output of the following pseudo code?
+
+1 Integer pp, qq, rr
+
+2 Set pp=0, qq=6, rr=7 
+
+3 pp=rr+pp
+
+4 pp=(rr&4)^rr
+
+5 if((qq&pp&rr)<(rr&qq))
+
+6        if((qq^pp)<(rr+qq))
+
+7           rr=(3+1)^pp
+
+8        End if
+
+9 End if
+
+10 Print pp+qq+rr //3+6+7=16
+
+Note:
+&: bitwise AND - The bitwise AND operator (&) compares each bit of the first operand to the 
+corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. 
+Otherwise, the corresponding result bit is set to 0.
+
+^ is the bitwise OR operator that compares each bit of its first operand to the corresponding bit of 
+its second operand. If one bit is 0 and the other bit is 1, the corresponding result bit is set to 1. 
+Otherwise, the corresponding result bit is set to 0.
+
+A. 29
+B. 18
+C. 10
+D. 16
+Answer: D
+
+4.What will be the output of the following pseudo code?
+
+1 Integer p,q,r
+
+2 Set p=9, q=6, r=10
+
+3 if((q^p^r)>(r^q)) ///
+
+4 r=(11&12)+q
+
+5 End if
+
+6 if((q^6^8)>(p^4)) 
+
+7 p=(r+3)&r
+
+8 End if
+
+9 Print p+q+r ///9+6+10=25
+
+Note:
+&: bitwise AND - The bitwise AND operator (&) compares each bit of the first operand to the 
+corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. 
+Otherwise, the corresponding result bit is set to 0.
+^ is the bitwise OR operator that compares each bit of its first operand to the corresponding bit of 
+its second operand. If one bit is 0 and the other bit is 1, the corresponding result bit is set to 1. 
+Otherwise, the corresponding result bit is set to 0.
+
+A. 20
+B. 27
+C. 25
+D. 36
+Answer: C
+
+5. What will be the output of the following pseudocode?
+
+1 Integer pp,99,rr
+2 Set pp=1, qq=2, rr=8
+3 if((5+8)<(7+qq))//if(13 <  9)
+4       if((qq+pp)<(pp=qq))
+5           rr=(rr+6)+rr
+6           rr=(qq+pp)+pp
+7       End if
+8       rr=rr+pp
+9 Else
+9 if((pp+qq-rr)<(rr+pp)) //if(-5 < 9)
+10 pp=pp+rr //pp=1+8=9
+11End if
+12 rr=(pp&rr)+pp //rr=(8)+9=17
+14 End if
+15 Print pp+qq+rr///9+2+17=28
+
+Note:
+&: bitwise AND - The bitwise AND operator (&) compares each bit of the first operand to the 
+corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. 
+Otherwise, the corresponding result bit is set to 0.
+
+A. 35
+B. 49
+C. 19
+D. 28
+Answer: D
+
+6.What will be the output of the following pseudo code?
+
+1 Integer p, q, r
+
+2 Set p=8, q=4, r=5
+
+3 if((r+q) < (q-r) || p>q)
+
+4 End if
+
+5 q=(9&8)&r //q=0
+
+6 Print p+q+r //8+0+5=13
+
+Note:
+&: bitwise AND - The bitwise AND operator (&) compares each bit of the first operand to the 
+corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. 
+Otherwise, the corresponding result bit is set to 0.
+II. Logical OR - The logical OR operator (II) returns the Boolean value TRUE(or 1) if either or both 
+operands is TRUE and FALSE(or 0) otherwise
+
+A. 17
+B. 10
+C. 23
+D. 13
+Answer: D
+
+7 What will be the output of the following pseudo code for a=1,b=2,c=9?
+
+1 Integer funn(Integer a,Integer b,Integer c)
+
+2.         for(each c from 5 to 9)///for(c=5 ; c<=9; c++)///c=10
+
+3             if((b+5)>(a−b)) //if(18 > 1)
+
+4                 a=(b+5)^a //a=28
+
+5             End if
+
+6            b=5^c //b=12
+
+7          End for
+
+8     return a+b//28+12=40
+
+Note- ^ is the bitwise OR operator that compares each bit of the first operand to the 
+corresponding bit of the second operand. If one bit is 0 and the other bit is 1, the corresponding 
+result bit is set to 1. Otherwise, the corresponding result bit is set to 0.
+
+A. 26
+B. 55
+C. 40
+D. 44
+Answer: C
+
+8.What will be the output of the following pseudo code for a=2, b=6, c=5?
+
+1 Integer funn(Integer a, Integer b,Integer c)
+
+2 if((a&7&b) >(6&a))//if(2) > (2)
+
+3 b=(12+7) +a
+
+4 c=(12+4) +b
+
+5 End if
+
+6 if((2+3)<(5+b)) //if(5 < 11)
+
+7 b=(b+3)+c //b=14
+
+8 a=(9&10)+c //a=(8+5)=13
+
+9 End if
+
+10 return a+b+c //13+14+5=32
+
+Note-&: bitwise AND - The bitwise AND operator (&) compares each bit of the first operand to the 
+corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. 
+Otherwise, the corresponding result bit is set to 0.
+
+A. 33
+B. 32
+C. 41
+D. 28
+Answer: B
+
+9.What will be the output of the following pseudocode?
+
+1 Integer p,q,r.
+
+2.Set p=0, q=8, r=10 
+
+3 if(p<r && (p&q)<r) //if(0<10  && (0)<10)
+
+4 q=4&q //q=4&8=0
+
+5 p=(q+3)^r //p=(3)^10=9
+
+6 End if
+
+7 r=(q&1)+p //r=(0)+9=9
+
+8 q=(q^9)+p //q=(9)+9 = 18
+
+Note-&&: Logical AND - The logical AND operator (&&) returns the Boolean value true(or 1) if 
+both operands are true and return false (or 0) otherwise.
+&: bitwise AND - The bitwise AND operator (&) compares each bit of the first operand to the 
+corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. 
+Otherwise, the corresponding result bit is set to 0.
+^ is the bitwise exclusive OR operator that compares each bit of its first operand to the 
+corresponding bit of its second operand. If one bit is 0 and the other bit is 1, the corresponding 
+result bit is set to 1. Otherwise, the corresponding result bit is set to 0.
+
+A. 45
+B. 36
+C. 31
+D. 38
+Answer: B
+
+10.What will be the output of the following pseudocode?
+
+1 Integer p,q,r
+2 Set p=1, q=4, r=7
+3 p=(1+8)+q //p=(9+4)=13
+4 r=(p&r)+r //r=(5)+7=12
+5 r=q+q //r=8
+6 if((q+r)<(r-q) && 7>p)//if(12<4
+7 p=r+q 
+8 p=(p+11)+q
+9 End if
+10 Print p+q+r //13+4+8=25
+11 
+
+Note-&&: Logical AND - The logical AND operator (&&) returns the Boolean value true(or 1) if 
+both operands are true and return false (or 0) otherwise.
+&: bitwise AND - The bitwise AND operator (&) compares each bit of the first operand to the 
+corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. 
+Otherwise, the corresponding result bit is set to 0.
+
+A. 34
+B. 20
+C. 32
+D. 25
+Answer: D
+
+11.What will be the output of the following pseudocode?
+
+1     Integer p,q,r
+2     Set p=6, q=3, r=9
+3     if((p&r)<(q-p)//if((0) < (-3))
+4         p=(2^7)+r
+5         p=(p+3)^r
+6         q=4^q
+7.        End if
+8.      r=(r+p)&q //r=3 
+9 Print p+q+r//6+
+
+Note- &: bitwise AND - The bitwise AND operator (&) compares each bit of the first operand to 
+the corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 
+1. Otherwise, the corresponding result bit is set to 0.
+^ is the bitwise exclusive OR operator that compares each bit of its first operand to the 
+corresponding bit of its second operand. If one bit is 0 and the other bit is 1, the corresponding 
+result bit is set to 1. Otherwise, the corresponding result bit is set to 0.
+
+A. 10
+B. 13
+C. 12
+D. 19
+Answer: C
+
+12.What will be the output of the following pseudocode?
+1 Integer pp, qq,rr
+2 Set pp=8, qq=4, rr=5
+3 for(each rr from 4 to 5)//for(rr=4; rr<=5; rr++)
+4           if((rr-pp+qq)<(qq+rr))//if(-13 < 9)
+5               pp=(5+5)+qq //pp=14
+6.           End if
+7        pp=(rr+qq)+pp //pp=23
+8     End for
+9     Print pp+qq //23+4=27
+
+A. 22
+
+B. 32
+
+C. 27
+
+D. 45
+
+Answer: C
+
+13.What will be the output of the following pseudocode?
+1    Integer p,q,r
+2    Set p=4, q=2, r=4
+3     for(each r from 5 to 6) //for(r=5 ; r<=6; r++)//r=7
+4         q=(r+r)+q //q=(29)
+5.            if((p+r-q)<(6-p))//if(-7 < -10)
+6                 p=p+q //p=16
+7                 q=12+r //q=17
+8        End if
+9     End for
+10 Print p+q //16+29 = 45
+A. 58
+B. 34
+C. 45
+D. 49
+
+Answer: C
+
+14.What will be the output of the following pseudocode?
+
+1    Integer a,b,c
+2    Set a=1, b=2, c=9
+3.   if((b+c)>(c-b))
+4            c=a+a//c=2
+5.      End if
+6.    if((7+3)<(6+a)) 
+7.         b=12+a
+8     End if
+9.    Print a+b+c //1+2+2=5
+
+A. 5
+B. 1
+C. 9
+D. 20
+Answer: A
+
+15.What will be the output of the following pseudo code for 
+a=6, b=8, c=4?
+2 Integer funn (Integer a, Integer b, Integer c)
+3   if((c+a+b)<(b+c))
+4    if((c^b^a)<(b+a+c)) 
+5     if ((b+a-c)<(6-b))
+6      c=(c&11)+a
+7 End if
+8.   End if
+9       End if
+10 a=1&c //a=0
+11 c= a^a //c=0
+12 return a+b+c //0+8+0=8
+
+Note- &: bitwise AND - - The bitwise AND operator (&) compares each bit of the first operand to 
+the corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 
+1. Otherwise, the corresponding result bit is set to 0.
+^ is the bitwise exclusive OR operator that compares each bit of its first operand to the 
+corresponding bit of its second operand. If one bit is 0 and the other bit is 1, the corresponding 
+result bit is set to 1. Otherwise, the corresponding result bit is set to 0.
+
+A. 11
+B. 5
+C. 27
+D. 8
+Answer: D
+
+16.What will be the output of the following pseudocode for 
+a=3, b=4, c=4?
+2 Integer funn (Integer a, Integer b,Integer c)
+3 b=c^c  //b=0
+4 c=(12+8)+c //c=24
+5 if((b&a)<a && 2>a) //if((0&3)<3 && 2>3)
+6    b=4+b
+7    b=(9+3)+b
+8 Else
+9    a=3^c //a=3^24=27
+10 End if
+11 return a+b+c //27+0+24=51
+
+Note- &&: Logical AND - The logical AND operator (&&) returns the Boolean value true(or 1) if both 
+operands are true and return false (or 0) otherwise.
+&: bitwise AND - - The bitwise AND operator (&) compares each bit of the first operand to the 
+corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. 
+Otherwise, the corresponding result bit is set to 0.
+
+^ is the bitwise exclusive OR operator that compares each bit of its first operand to the 
+corresponding bit of its second operand. If one bit is 0 and the other bit is 1, the corresponding 
+result bit is set to 1. Otherwise, the corresponding result bit is set to 0.
+
+A. 51
+B. 53
+C. 56
+D. 47
+Answer: A
+
+17.What will be the output of the following pseudo code for 
+a=1, b=6, c=5?
+2 Integer funn (Integer a, Integer b, Integer c)
+3      for (each c from 4 to 5) //for(c=4; c<=5; c++)
+4        b=c+b //b=62
+5         if((4-c-a)<(a+b))//if(4-5-1 < )
+6.          b=(b+8)+b //b=132
+7           b=(a^b)+b //b=265
+8        Else
+9      	    b=(c^a)+c
+10          Jump out of the loop //break;
+11       End if
+12 End for
+13 return a+b //1+265=266
+
+Note- ^ is the bitwise exclusive OR operator that compares each bit of its first operand to the 
+corresponding bit of its second operand. If one bit is 0 and the other bit is 1, the corresponding 
+result bit is set to 1. Otherwise, the corresponding result bit is set to 0.
+
+A. 269
+B. 279
+C. 266
+D. 262
+Answer: C
+
+18. What will be the content of the stack after execution of the 
+following code?
+1 Create a stack
+2 Push 1 on to the stack
+3 Push 2 on to the stack
+4 Push 3 on to the stack
+5 pop from the stack
+6 pop from the stack
+7 Push 4 on to the stack
+8 Push 5 on to the stack
+9 Push 6 on to the stack
+10 pop from the stack
+11 Push 7 on to the stack 
+12 pop from the stack
+13 pop from the stack
+14 pop from the stack
+
+A.1
+
+B. 1,7
+
+C. 7
+
+D. 1, 6, 7
+
+Answer: A
+
+1.Consider a program that prints fibonacci series. The program 
+takes the number of elements in the 
+series as input from the user. Which of the following 
+pseudocodes will print the series as required?
+
+A.1 FUNCTION PrintFibonacci (Integer NumTerms)//5 0 1 1 2 3 
+2 Integer Term1, Term2, Next Term
+3 SET Term1=0 
+4 SET Term2=1 
+5 FOR Term-Term1 TO NumTerms STEP 1 DO// term=0 term<=5 term++///term=5
+6 IF Term<=1 THEN
+7 SET NextTerm = Term //nextterm=1
+8 ELSE
+9 Next Term = Term1+Term2 //nextterm=1+2=3
+10 Term1-Term2 //term1=2
+11 Term2-NextTerm //term2=3
+12 END IF
+13 Print NextTerm //0 1 1 2 3 5
+14 END FOR
+15 END FUNCTION
+17 PROGRAM START
+18 Integer NumTerms
+19 GET NumTerms
+20 CALL PrintFibonacci (NumTerms)
+21 STOP
+
+B.1 FUNCTION PrintFibonacci(Integer NumTerms)
+2 Integer Term1, Term2, Next Term
+3 SET Term1-0 4 SET Term2-1
+5 SET NextTerm = Term1+Term2
+6 FOR Term-Term1 TO NumTerms STEP 1 DO
+7 Print NextTerm
+8 Term1-Term2
+9 Term2-NextTerm
+10 Next Term = Term1+Term2
+11 END FOR
+12 END FUNCTION
+13
+14 PROGRAM START
+15 Integer NumTerms
+16 GET NumTerms
+17 CALL PrintFibonacci (NumTerms)
+18 STOP
+
+C.1 FUNCTION PrintFibonacci(Integer NumTerms)
+2 SET Term1-0
+3 SET Term2-1
+4 FOR Term=Term1 TO NumTerms STEP 1 DO
+5 IF Term<=1 THEN 
+6 SET NextTerm = Term
+7 ELSE 
+8 Next Term = Term1+Term2
+9 Term1=Term2
+10 Term2-NextTerm
+11 END IF
+12 Print NextTerm
+13 END FOR
+14 END FUNCTION
+15
+16 PROGRAM START
+17 GET NumTerms
+18 PrintFibonacci (NumTerms)
+19 STOP
+
+D.1 FUNCTION PrintFibonacci (Integer NumTerms)
+2 Integer Termi, Term2, NextTerm
+3 SET Term1-0 
+4 SET Term2=1
+5 FOR Term=Term1 TO NumTerms STEP 1 DO
+6 IF Term<=1 THEN
+7 SET NextTerm = Term
+8 ELSE
+9 Term1=Term2
+10 Term2=NextTerm
+11 Next Term = Term1+Term2
+12 END IF
+13 Print NextTerm
+14 END FOR
+15 END FUNCTION
+16
+17 PROGRAM START
+18 Integer NumTerms
+19 GET NumTerms
+20 CALL PrintFibonacci (NumTerms)
+21 STOP
+
+Answer: A
+
+2.Which of the following is correct pseudocode using case statement for 
+the given statement?
+
+1 READ marks
+2 If marks >= 100 Then
+3 Print "Perfect Score"
+4 ElseIf marks > 89 Then
+5 Print "Grade A" 
+6 ElseIf marks > 79 Then
+7 Print "Grade = B"
+8 ElseIf marks > 69 Then
+9 Print "Grade - C"
+10 ElseIf marks > 59 Then
+11 Print "Grade = D"
+12 Else
+13 Print "Grade = F"
+14 End If
+
+A.1 READ marks
+2 Case based on marks
+3 Case >=100
+4 Print "Perfect Score"
+5 Case > 89
+6 Print "Grade A"
+7 Case > 79
+8 Print "Grade = B"
+9 Case > 69
+10 Print "Grade C"
+11 Case > 59
+12 Print "Grade = D"
+13 Else
+14 Print "Grade = F"
+15 End Case
+
+B.1 READ marks
+2 Case based on marks
+3 Case >=100
+4 Print "Perfect Score"
+5 Case > 89
+6 Print "Grade = A"
+7 Case > 79
+8 Print "Grade = B"
+9 Case > 69
+10 Print "Grade = C"
+11 Case > 59
+12 Print "Grade = D"
+13 Else
+14 Print "Grade = F"
+15 End IF
+
+C.Take marks as an input from user and store in marks
+1 Case based on marks
+2 Case >=108
+3 Print "Perfect Score"
+4 Case > 89
+5 Print "Grade = A"
+6 Case > 79
+7 Print "Grade = B"
+8 Case > 69
+9 Print "Grade = C"
+10 Case > 59
+11 Print "Grade = D"
+12 Default
+13 Print "Grade = E"
+14 End Case
+
+D.1 READ marks
+2 Case based on marks
+3 If marks >=100
+4 Print "Perfect Score"
+5 If marks > 89
+6 Print "Grade = A"
+7 If marks > 79
+8 Print "Grade = B"
+9 If marks > 69
+10 Print "Grade = C"
+11 If marks > 59
+12 Print "Grade = D"
+13 Else
+14 Print "Grade = F"
+15 End Case
+
+Answer D
+
+3.Which of the following is the pseudocode for taking three numbers as 
+input and printing the biggest number?
+
+A.
+1 READ X
+2 READ Y
+3 READ Z
+5 If x > y OR
+6 If x > z Then
+7 Print z
+8 Else
+9 Print y
+10 End If
+11 Else
+12 Print x
+13 End If
+
+B. X=5 Y=6 Z=7
+1 READ X
+2 READ y
+3 READ Z
+5 If x > y Then
+6 If x > z Then
+7 Print x
+8 Else
+9 Print z
+10 End If
+11 Else
+12 Print y
+13 End If
+
+C.
+1 READ x
+2 READ Y
+3 READ Z
+5 If x > Y OR
+6 If x > z Then
+7 Print z
+8 Else
+9 Print x
+10 End If
+11 Else
+12 If y > z Then
+13 Print z
+14 Else
+15 Print y
+16 End If
+17 End If
+
+D.
+1 READ X
+2 READ Y
+3 READ Z
+4
+5 If x > y Then
+6 If x > z Then
+7 Print z
+8 Else
+9 Print x
+10 End If
+11 Else
+12 If y> z Then
+13 Print z
+14 Else
+15 Print y
+16 End If
+
+Answer: B
+
+4.How many times the while loop will be executed for N= 8?
+
+1 SET even = total = 0;
+2 READ N
+3 WHILE even <= N //10<=8
+4 total = total + even;
+5 even = even + 2;
+6 ENDWHILE
+7 PRINT total
+
+A. 4
+B. 8
+C. 5
+D. 9
+
+Answer: C
