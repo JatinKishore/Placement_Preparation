@@ -70,9 +70,13 @@ You can find 3 folders in this repository. The following sections guide you on h
 
 
 ### Contributions
-- As a non-profit community, codeClub has not generated any income to date. Even a ₹1 from you can motivate us to do something more.
+- As a non-profit community, codeClubs has not generated any promising income to date and it is completely depends upon contributors and volunteers. Even a ₹1 from you can motivate us to do something more.
 - If you wish to support our work, you can contribute via our UPI ID: jatinkm02@oksbi / below QR code. Please mention your name and share a few words with us when making a contribution, so we can include you on our contributors list on our webpage. Thank you for considering and supporting our efforts.
 
 <p style="text-align: center;">
   <img src="image.png" alt="alt text" width="300"/>
 </p>
+
+### Contributors
+- codeClubs is running over 2 years and in this huge time period, we have gone thourgh huge volunterial activites in our community and those volunteers and as a community its our responsibilty to recognize our Volunteers and Contributors. Therefore we made separate document to address them.
+- [codeClubs Volunteers & Contributors](https://docs.google.com/document/d/12Qcw9UTajmg_Xee4iKPRFegVz_kNecbcMbjhfG7LTsg/edit?usp=sharing)
