@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PLACEMENT PREPARATION 
 <br>
 
@@ -77,8 +76,3 @@ You can find 3 folders in this repository. The following sections guide you on h
 <p style="text-align: center;">
   <img src="image.png" alt="alt text" width="300"/>
 </p>
-
-
-
-
->>>>>>> d385940 (version 2.0)
