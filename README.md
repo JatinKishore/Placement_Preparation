@@ -80,5 +80,5 @@ You can find 3 folders in this repository. The following sections guide you on h
 ### Volunteers & Contributors
 - codeClubs is running over 2 years and in this huge time period, we have gone thourgh huge volunterial activites in our community and those volunteers and as a community its our responsibilty to recognize our Volunteers and Contributors. Therefore we made separate document to address them.
 - [Domain Contributors](https://domain-contributions.netlify.app/)
--[Volunteers & Contributors](https://docs.google.com/document/d/12Qcw9UTajmg_Xee4iKPRFegVz_kNecbcMbjhfG7LTsg/edit?usp=sharing)
+- [Volunteers & Contributors](https://docs.google.com/document/d/12Qcw9UTajmg_Xee4iKPRFegVz_kNecbcMbjhfG7LTsg/edit?usp=sharing)
 
