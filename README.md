@@ -45,8 +45,8 @@ You can find 3 folders in this repository. The following sections guide you on h
 
 
 ### Contributions
-- As a non-profit community, codeClubs has not generated any promising income to date and it is completely depends upon contributors and volunteers. Even a ₹1 from you can motivate us to do something more.
-- If you wish to support our work, you can contribute via our UPI ID: jatinkm02@oksbi / below QR code. Please mention your name and share a few words with us when making a contribution, so we can include you on our contributors list on our webpage. Thank you for considering and supporting our efforts.
+- As a non-profit community, codeClubs has not generated any promising income to date and it is completely depends upon contributors and volunteers. 
+- If you wish to support our work, you can contribute via our UPI ID: jatinkm02@oksbi / below QR code. Please mention your name and share a few words with us while making a contribution, so we can include you on our contributors list on our webpage. Thank you for considering and supporting our efforts.
 
 <p style="text-align: center;">
   <img src="image.png" alt="alt text" width="300"/>
