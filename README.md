@@ -44,10 +44,12 @@ You can find 3 folders in this repository. The following sections guide you on h
 </p>
 
 
-### Contributions
+### Support
 - As a non-profit community, codeClubs has not generated any promising income to date and it is completely depends upon contributors and volunteers. 
-- If you wish to support our work, you can contribute via our UPI ID: jatinkm02@oksbi / below QR code. Please mention your name and share a few words with us while making a contribution, so we can include you on our contributors list on our webpage. Thank you for considering and supporting our efforts.
+- If you wish to support our work financially, you can do so by funding via our UPI ID: jatinkm02@oksbi or by using the QR code below.
+- Please mention your name and share a few words with us while making your contribution, so we can acknowledge you on our supporters list on our webpage.
 
+- Thank you for considering and supporting our efforts!
 <p style="text-align: center;">
   <img src="image.png" alt="alt text" width="300"/>
 </p>
