@@ -43,17 +43,6 @@ You can find 3 folders in this repository. The following sections guide you on h
  <a href="https://codeclubs.in/" target="_blank"><img src="codeClubs.png" alt="alt text" width="200"/></a>  
 </p>
 
-
-### Support
-- As a non-profit community, codeClubs has not generated any promising income to date and it is completely depends upon contributors and volunteers. 
-- If you wish to support our work financially, you can do so by funding via our UPI ID: jatinkm02@oksbi or by using the QR code below.
-- Please mention your name and share a few words with us while making your contribution, so we can acknowledge you on our supporters list on our webpage.
-
-- Thank you for considering and supporting our efforts!
-<p style="text-align: center;">
-  <img src="image.png" alt="alt text" width="300"/>
-</p>
-
 ### Volunteers & Contributors
 - codeClubs has been running for over 2 years, and during this time, we have gone through many volunteer activities in our community. As a community, it is our responsibility to recognize our volunteers and contributors. Therefore, we have created a separate document to acknowledge them.
 - [Volunteers & Contributors](https://docs.google.com/document/d/12Qcw9UTajmg_Xee4iKPRFegVz_kNecbcMbjhfG7LTsg/edit?usp=sharing)
