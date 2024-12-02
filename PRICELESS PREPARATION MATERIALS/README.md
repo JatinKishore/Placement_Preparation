@@ -1,4 +1,7 @@
-# PRICELESS PREPARATION MATERIALS
+# Complete Resource Materials
 
-- This folder contains free preparation materials sourced from various places.
-- It includes a file named "Complete Resource Materials," where you can find comprehensive resources to crack the given companies that are hard to find individually. It is advised to go through that file first.
+## INTERVIEW PREPARATION MATERIALS
+- [All Company interview Questions](https://drive.google.com/drive/folders/1NC5wLHUMUye5_5zHzSgTgXDUdVmh43ZU)
+- [Complete ACCENTURE Materials](https://drive.google.com/drive/folders/1oMtiEzBmKhDloSHmbujvB9LV0WtJ0VQq?usp=drive_link)
+- [Complete TCS Materials](https://drive.google.com/drive/folders/1I8QqnzZonRewbSnUMyfC9-tRduEJ4gyB)
+- [Complete ZOHO Materials](https://drive.google.com/drive/folders/1EtXkhhxviVc_orwQk78wAwav-cut63Yr)
