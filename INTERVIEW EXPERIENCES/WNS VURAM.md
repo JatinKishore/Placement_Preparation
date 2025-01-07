@@ -77,3 +77,29 @@ The company places maximum emphasis on the logical thinking abilities of the can
 - Understand how relationship records and sync records work in the context of a database or system design.
 
 ---
+
+
+---
+# INTERVIEW EXPERIENCE  : 2
+
+## Recruitment Process:
+
+### 1st Round:
+- **APS (Aptitude)**: General aptitude test.
+- **Verbal**: Basic English language skills test.
+- **Technical**: Focused on **basic computer science concepts**, **MS Office**, and **pseudocode**.
+- **Email Writing**: Short email writing exercise.
+
+### 2nd Round - Technical:
+- The technical round primarily focused on **logical thinking** rather than coding skills.
+- Since I was from an **EEE (Electrical and Electronics Engineering)** background, my coding skills were not tested.
+- The questions mostly involved applying **logic** to solve problems. For example:
+  - **Fibonacci series**
+  - **Sum of digits**
+- In this round, they asked me to **explain my projects** confidently and in detail. It felt more like an **HR interview** with a technical focus.
+
+### 3rd Round - General HR:
+- Questions in this round focused on personal details:
+  - **Location preference**
+  - **Why IT from EEE?**
+  - **Family background**
