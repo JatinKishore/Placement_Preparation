@@ -40,8 +40,11 @@ You can find 3 folders in this repository. The following sections guide you on h
 - Subscribe to us on [YouTube](https://youtube.com/@codeclubs).
 
 <p style="text-align: center;">
- <a href="https://codeclubs.in/" target="_blank"><img src="codeClubs.png" alt="alt text" width="200"/></a>  
+  <a href="https://codeclubs.in/" target="_blank">
+    <img src="codeClubs.png" alt="alt text" width="200" style="border-radius: 50%;"/>
+  </a>  
 </p>
+
 
 ### Volunteers & Contributors
 - codeClubs has been running for over 2 years, and during this time, we have gone through many volunteer activities in our community. As a community, it is our responsibility to recognize our volunteers and contributors. Therefore, we have created a separate document to acknowledge them.
