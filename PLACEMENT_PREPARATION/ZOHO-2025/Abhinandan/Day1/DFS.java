@@ -30,14 +30,14 @@ public class DFS{
             CreateGraph(u,v);
         }
         boolean [] vis=new boolean [nodes];
-        DFSTravesal(adjList,vis,0);
+        DFSTraversal(adjList,vis,0);
         for (int i=0;i<nodes;i++)
         {
             System.out.print(dfsList.get(i)+" ");
         }
     }
 
-    private static void DFSTravesal(List<List<Integer>> adjList, boolean[] vis, int node) {
+    private static void DFSTraversal(List<List<Integer>> adjList, boolean[] vis, int node) {
         vis[node]=true;
         dfsList.add(node);
         for(int neighbour:adjList.get(node))
