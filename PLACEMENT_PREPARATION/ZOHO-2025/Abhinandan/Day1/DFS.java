@@ -44,7 +44,7 @@ public class DFS{
         {
             if(!vis[neighbour])
             {
-                DFSTravesal(adjList,vis,neighbour);
+                DFSTraversal(adjList,vis,neighbour);
             }
         }
     }
