@@ -1,4 +1,4 @@
-# ZOHO 2025 Placement Preparation – John Doe
+# ZOHO 2025 Placement Preparation 
 
 This folder contains my daily progress as part of the **ZOHO 2025 Placement Training Program** by CodeClubs.
 
