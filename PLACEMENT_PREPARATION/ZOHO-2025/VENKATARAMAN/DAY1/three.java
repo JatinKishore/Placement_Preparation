@@ -19,10 +19,11 @@ public class cyclicroatation {
         int[] a = {1, 2, 3, 4, 5, 6};
         System.out.println("Original: " + Arrays.toString(a));
 
-        rotate(a, 2);  
+        rotate(a, 2); 
         System.out.println("Rotated by 2: " + Arrays.toString(a));
         
         rotate(a, 3);  
         System.out.println("Rotated by 3: " + Arrays.toString(a));
     }
 }
+// venkataraman
