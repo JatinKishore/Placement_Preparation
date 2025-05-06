@@ -8,5 +8,6 @@
 /dataSources.local.xml
 # IntelliJ IDEA
 .idea/
-*.iml
+out/
 .DS_Store
+*.iml
