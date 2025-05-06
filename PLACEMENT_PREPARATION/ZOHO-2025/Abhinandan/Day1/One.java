@@ -1,11 +1,11 @@
-package Day2;
+package Day1;
 
 
 import java.util.Arrays;
 
 /*
  * @author Abhinandan
- * Problem Statement 1.Implement an algorithm to rotate an NxN matrix by 90 degrees. (clockwise)
+ * Problem Statement: Implement an algorithm to rotate an NxN matrix by 90 degrees. (clockwise)
  * 1 2 3     7 4 1
  * 4 5 6  -> 8 5 2
  * 7 8 9     9 6 3
