@@ -27,7 +27,7 @@ This folder contains my daily progress as part of the **ZOHO 2025 Placement Trai
 6. https://leetcode.com/problems/merge-sorted-array/
 7. https://leetcode.com/problems/search-in-rotated-sorted-array/
 8. https://leetcode.com/problems/intersection-of-two-arrays/description/
-9. https://leetcode.com/problems/intersection-of-two-9. arrays-ii/description/
+9. https://leetcode.com/problems/intersection-of-two-arrays-ii/description/
 10. https://leetcode.com/problems/majority-element/description/
 11. https://leetcode.com/problems/majority-element-ii/
 12. https://leetcode.com/problems/longest-increasing-subsequence/
