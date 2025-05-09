@@ -27,10 +27,10 @@ public class _03_IntersectionOfTwoArrays {
             arr2[i] = in.nextInt();
         }
 
-        System.out.println(getIntegerSection(arr1, n1, arr2, n2));
+        System.out.println(getInterSection(arr1, n1, arr2, n2));
     }
 
-    private static List<Integer> getIntegerSection(int[] arr1, int n1, int[] arr2, int n2) {
+    private static List<Integer> getInterSection(int[] arr1, int n1, int[] arr2, int n2) {
         List<Integer> result = new ArrayList<>();
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i=0; i<n1; i++) {
