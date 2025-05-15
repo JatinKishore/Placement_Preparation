@@ -1,3 +1,5 @@
+//Implement an algorithm to find the equilibrium index of an array.
+
 public class EquilibriumIndex {
    public static int findEquilibriumIndex(int[] arr) {
         int totalSum = 0;
