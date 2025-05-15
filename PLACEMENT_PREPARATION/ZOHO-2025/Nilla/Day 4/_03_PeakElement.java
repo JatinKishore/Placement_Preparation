@@ -1,3 +1,5 @@
+// Implement an algorithm to find the peak element in an array.
+
 public class Main {
     public static int findPeakElement(int[] nums) {
         int low = 0, high = nums.length - 1;
