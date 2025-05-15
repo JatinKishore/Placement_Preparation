@@ -1,3 +1,5 @@
+//Implement an algorithm to count the number of subarrays with a given sum.
+
 public class CountSubArray {
     public static int subarraySum(int[] nums, int k) {
         int start = 0, end = 0, count = 0, curSum = 0;
