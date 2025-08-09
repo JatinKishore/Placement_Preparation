@@ -4,6 +4,50 @@
 
 ---
 
+At our college, the **first round** was held for **4 hours** with **10 sections**.
+
+---
+
+## **Section Breakdown**
+
+### **Sections 1–7**  
+- **12 questions each**  
+- Topics:  
+  - **Aptitude** (speed, profit, etc.)  
+  - **Verbal** (synonyms, grammar, reading comprehension)
+
+---
+
+### **8th Section**  
+- **50 questions** (**45 mins**)  
+- Topics:  
+  - **Pseudocode debug**  
+  - **Choose the correct code** to fill in given partial code  
+  - **SQL queries**
+
+---
+
+### **9th Section — Regular Coder**  
+- **3 questions (~1 hr)**  
+- Topics:  
+  - **Strings** and **string manipulation**  
+
+**Example:**  
+1. Choose the substring and check if it has the **same pattern** in the original string.  
+2. **Input:** `aa1b2cab3`  
+   **Output:** Separate substrings between numbers and return the **most repeated length**.
+
+---
+
+### **10th Section — Power Coder**  
+- **2 questions (~1 hr)**  
+- Topics:  
+  - **Arrays**  
+  - **Lists**  
+  - **Queues**
+
+---
+
 ## Virtusa Java Developer Interview Experience
 
 ### Experience
@@ -128,5 +172,6 @@ Virtusa visited campus in July 2022 for the Associate Engineer role through a co
 
 **Reference**
 [GeeksforGeeks](https://www.geeksforgeeks.org/virtusa-interview-experience-for-associate-software-engineer/)
+
 
 
