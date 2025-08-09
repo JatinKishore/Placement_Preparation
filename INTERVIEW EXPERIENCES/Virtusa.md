@@ -1,95 +1,132 @@
+---
+
 # Virtusa Interview Experience
 
-## Virtusa Interview Experience for Associate Engineer
+---
 
-**Last Updated:** 05 Sep, 2022  
-**Difficulty:** Easy to Medium  
+## Virtusa Java Developer Interview Experience
 
-Virtusa visited our campus to hire an Associate Engineer in July 2022. It was a mix of virtual and offline placement drives. Round 1 was conducted online, while the rest of the interview rounds were held offline on campus.
+### Experience
 
-### **Eligible Branches**
-- CS, IT, E&TC
+Virtusa’s Java Developer interview process for candidates with around **2 years of experience** typically involves **an online assessment**, one or more **technical interviews**, and in some cases, an **HR interview**. The technical stages focus heavily on **Java concepts**, **data structures**, **algorithms**, and relevant frameworks such as **Spring**.
 
-### **Round 1: Online Test**
-The online test consisted of five sections:
-- Core subject questions
-- Pseudo-codes to predict output
-- Communication skills assessment
-- Six coding questions
+#### Round 1: Online Assessment (Elimination)
 
-They offered two different roles: **Regular** and **Power Coder**. For the Power Coder role, two separate medium-level coding questions were given. The overall level of the exam was easy.
+* **Aptitude questions**: logical reasoning, numerical ability, and verbal reasoning.
+* **Coding challenges**: basic to moderate-level problems to test core programming skills.
 
-#### **Coding Questions:**
-- Medium-level questions based on strings, arrays, etc.
+#### Round 2: First Technical Interview (Elimination)
 
-### **Round 2: Technical Interview (Offline)**
-- The interview started with basic questions about programming languages, gradually increasing in difficulty.
-- The interviewers mainly focused on the resume and the skills mentioned in it.
-- Candidates were asked to explain their projects in detail.
-- Every skill listed on the resume was tested.
-- Questions regarding **OOP, SQL, and Data Structures** were asked.
+* Core Java concepts: **OOPS**, **collections**, **multi-threading**, **garbage collection**.
+* Data structures & algorithms: arrays, linked lists, stacks, queues, sorting/searching algorithms.
+* **SQL basics**: queries, joins, and optimization if relevant to the role.
 
-### **Round 3: HR Interview**
-- Questions were related to skills, resume, and projects.
-- Asked about comfort with different technologies.
-- Discussion about participation in hackathons or certifications.
+#### Round 3: Second Technical Interview (Elimination)
 
-### **Tips:**
-- Study **OOP, Data Structures**, and everything on your resume.
-- Be prepared to explain your projects in detail.
-- Stay confident and give your best effort.
+* In-depth discussion on **Java** and **Spring framework** (if applicable).
+* **Database concepts** and interaction with Java applications.
+* Project discussions: design decisions, challenges faced, and problem-solving approach.
+* Real-time coding problem solving with explanations.
+
+#### Round 4: HR Interview (Non-Elimination)
+
+* Focus on **soft skills** and **cultural fit**.
+* Career goals and willingness to work in the company's environment.
+* Questions about teamwork, adaptability, and future aspirations.
+
+**Overall Experience**
+
+* **Difficulty**: Moderate to High, depending on familiarity with Java and related frameworks.
+* **Interviewers**: Professional and technical, with a focus on practical application of concepts.
+
+**Reference**
+[Glassdoor](https://www.glassdoor.co.in/Interview/Virtusa-Java-Developer-Interview-Questions-EI_IE29396.0,7_KO8,22.htm)
 
 ---
 
-## Virtusa Interview Experience for Associate Software Engineer
+## Virtusa Associate Engineer Interview Experience
 
-**Last Updated:** 05 Nov, 2021  
+**Last Updated:** 05 Sep, 2022
+**Difficulty:** Easy to Medium
 
-### **Round 1: Coding (Virtusa Neural Hack Contest)**
-- Four medium-level coding questions.
-- Coding was only allowed in **Java**.
-- Successfully solved all questions in this round.
+Virtusa visited campus in July 2022 for the Associate Engineer role through a combination of **virtual** and **offline** rounds. Round 1 was online, while later rounds were offline.
 
-### **Round 2: Coding**
-- Three coding questions, solvable only in **Java**.
-- First two questions were of medium difficulty and were unlocked.
-- The third question was locked and could only be accessed if the first two were solved.
-- Successfully solved the first two but skipped the third (which was extremely difficult and had been asked in **ICPC World Finals**).
-- Despite skipping one question, received an email for the technical interview.
+**Eligible Branches**
 
-### **Round 3: Technical Interview** (45 minutes, Java-focused)
-- **Tell me about yourself.**
-- **Rate yourself in Java.**
-- **Project discussion.**
-- Questions on:
-  - Polymorphism
-  - Static keyword
-  - Interface and Abstract class
-  - Why we need an interface
-  - Abstraction & Encapsulation
-  - Final keyword
-  - Exception handling
-  - Collections Framework
-  - Difference between **ArrayList** and **LinkedList**
-  - Explanation of all data structures in collections
-  - Normalization in SQL
-  - SQL Keys
-  - SQL languages
+* CS, IT, E\&TC
 
-### **Round 4: HR Interview** (15 minutes, general discussion)
-- **Tell me about yourself.**
-- **Project discussion.**
-- **Tell me about Virtusa.**
-- Received the **offer mail** from Virtusa after a few days!
+#### Round 1: Online Test (Elimination)
 
-### **Verdict:** Selected 🎉
+* Five sections: core subject questions, pseudo-code output prediction, communication skills, and six coding questions.
+* Two role options: **Regular** and **Power Coder**.
+* Power Coder candidates received two medium-level coding questions.
+* Coding topics included strings and arrays.
+
+#### Round 2: Technical Interview (Offline, Elimination)
+
+* Started with basic programming questions, progressing in difficulty.
+* Strong focus on resume-based skills.
+* Project explanations in detail.
+* Topics: **OOP**, **SQL**, **Data Structures**.
+
+#### Round 3: HR Interview (Non-Elimination)
+
+* Questions on skills, resume, projects.
+* Comfort with various technologies.
+* Hackathon and certification participation.
+
+**Tips**
+
+* Focus on **OOP**, **Data Structures**, and resume content.
+* Be ready for in-depth project explanations.
+
+**Reference**
+[GeeksforGeeks](https://www.geeksforgeeks.org/virtusa-interview-experience-for-associate-engineer/?ref=asr2)
 
 ---
 
+## Virtusa Associate Software Engineer Interview Experience
 
-## Job Portal
-- [Virtusa Careers Page](https://www.virtusa.com/careers)
-## References
-- [Virtusa Interview Experience for Associate Software Engineer](https://www.geeksforgeeks.org/virtusa-interview-experience-for-associate-software-engineer/)
-- [Virtusa Interview Experience for Associate Engineer](https://www.geeksforgeeks.org/virtusa-interview-experience-for-associate-engineer/?ref=asr2)
+**Last Updated:** 05 Nov, 2021
+
+#### Round 1: Coding (Virtusa Neural Hack Contest, Elimination)
+
+* Four medium-level coding questions, only in **Java**.
+* Solved all successfully.
+
+#### Round 2: Coding (Elimination)
+
+* Three coding questions in **Java**.
+* First two medium-level questions were unlocked; third was locked until the first two were solved.
+* Solved the first two, skipped the third (ICPC-level difficulty).
+* Still shortlisted for technical interview.
+
+#### Round 3: Technical Interview (45 min, Java-focused, Elimination)
+
+* **Self-introduction**.
+* **Java rating** (self-assessment).
+* Project discussion.
+* Topics covered:
+
+  * Polymorphism
+  * Static keyword
+  * Interface vs Abstract class
+  * Why interfaces are needed
+  * Abstraction & Encapsulation
+  * Final keyword
+  * Exception handling
+  * Collections Framework
+  * ArrayList vs LinkedList
+  * Data structures in collections
+  * SQL normalization, keys, and query types
+
+#### Round 4: HR Interview (15 min, Non-Elimination)
+
+* General questions, project discussion.
+* Asked about Virtusa.
+* Received offer after a few days.
+
+**Reference**
+[GeeksforGeeks](https://www.geeksforgeeks.org/virtusa-interview-experience-for-associate-software-engineer/)
+
 
