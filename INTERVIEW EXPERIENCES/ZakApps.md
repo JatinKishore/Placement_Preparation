@@ -34,6 +34,55 @@ ZakApps’ interview process consists of **five rounds** covering aptitude, prog
 
 ### Overall Experience
 
+
+
+---
+
+## ZakApps Interview Process (Software Developer Roles)
+
+### **Typical Process – 4 Rounds**
+1. **Aptitude Test**  
+   - Assesses **general aptitude** and **problem-solving skills**.
+
+2. **Technical Written Assessment**  
+   - Evaluates **technical knowledge** and **problem-solving abilities**.  
+   - May include **coding challenges** or written assessments.
+
+3. **System Round**  
+   - Focuses on **system design**, **algorithms**, and **data structures**.
+
+4. **Final HR Discussion**  
+   - Evaluates **communication skills**, **personality**, and **cultural fit**.
+
+---
+
+### **Other Common Rounds**
+- **Phone Screen**: Initial check for basic communication and role suitability.  
+- **Coding Challenges / Hands-on Assignment**: Practical coding skill evaluation.  
+- **Behavioral Interview / Panel**: Assesses cultural fit, teamwork, and leadership.
+
+---
+
+### **Important Considerations**
+- **Communication Skills**: Highly valued — both written and verbal.  
+- **Technical Skills**: Strong emphasis for software developer roles.  
+- **Explain Your Thought Process**: Be clear when presenting solutions.  
+- **Be Ready for Coding**: Many roles require coding challenges.  
+- **Research the Company**: Helps in answering behavioral and cultural questions.
+
+---
+
+### **Interview Tips**
+- **Be on time** and prepared.  
+- **Practice** technical and communication skills.  
+- Prepare for **behavioral questions** with examples of past work.  
+- **Ask thoughtful questions** about the role and company.  
+
+---
+
+**Source:** [Glassdoor – ZakApps Interview Questions](https://www.glassdoor.co.in/Interview/ZakApps-Interview-Questions-E1411685.htm)
+
+
 * **Difficulty**: Moderate — high emphasis on Java and project clarity.
 * **Interviewers**: Progressively more senior, with increasing focus on depth of knowledge and communication.
 
