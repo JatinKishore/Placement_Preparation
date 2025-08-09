@@ -67,3 +67,50 @@
 
 #### Working Hours
 - Avasoft works with clients in **Canada** and the **U.S.**, so preferred working hours are from **Afternoon to Late Night** as mentioned by the company.
+
+
+---
+
+# **AVASOFT AI/ML Interview Process**
+
+**Rounds:**
+
+1. **GD (Group Discussion)**
+2. **Online Test**
+3. **Technical HR**
+4. **HR**
+
+---
+
+## **Technical Skills Required**
+
+* **Python**, **SQL**
+* **Data Structures** & **Algorithms**
+* **Machine Learning concepts**
+* Experience with **ML frameworks**: Keras, PyTorch, scikit-learn
+
+---
+
+## **Soft Skills**
+
+* **Communication**
+* **Teamwork**
+* **Problem-Solving**
+
+---
+
+## **AI/ML Specific Knowledge**
+
+* **Prompt Engineering**
+* **RAG (Retrieval-Augmented Generation)**
+* **ML Pipelines** (data preprocessing, model training, evaluation, deployment)
+
+---
+
+## **Online Test Pattern**
+
+* Mostly **MCQ**
+* **Aptitude**: Logical, Quantitative, English
+* Coding: **Not confirmed** (For cloud-based roles → only MCQ from **Networking**, **AWS**, **OS**, etc.)
+
+
