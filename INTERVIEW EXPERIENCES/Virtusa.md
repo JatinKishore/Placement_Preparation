@@ -3,6 +3,77 @@
 # Virtusa Interview Experience
 
 ---
+# Virtusa – Associate Software Engineer
+
+Virtusa conducted its placement drive for **2025 graduates**, offering **two roles**:  
+- **Coder** – ₹5 LPA  
+- **Power Coder** – ₹6.5 LPA  
+
+---
+
+## 🧠 **Round 1 – Online Assessment**
+
+The test is divided into **five consecutive sections**:
+
+1. **Aptitude** – 10 questions in **10 minutes**  
+2. **CS Fundamentals** – 30 questions in **30 minutes**  
+3. **Pseudo Code Round** – 10 MCQs in **10 minutes**  
+4. **Coding Challenge** – 4 problems in **50 minutes**  
+5. **Power Coding Challenge** (unlocked for top performers) – 3 **advanced-level** coding problems in **80 minutes**  
+
+**Platform:** Conducted via **HirePro** or Virtusa’s internal platform.
+
+---
+
+### 💻 **Key Coding Topics**
+- **Arrays** and **Strings**  
+- **HashMaps** and **Sets**  
+- **Sorting** and **Searching algorithms**  
+- **Recursion** and **Two-pointer technique**  
+- **Object-Oriented Programming (OOPs)**  
+- **Pseudo code interpretation**
+
+> 📌 *Conceptual clarity is crucial for solving problems within time limits.*
+
+---
+
+## 🧠 **Round 2 – Technical Interview**
+
+Focus areas:
+- **Data Structures & Algorithms** – LinkedLists, Trees, Stack/Queue implementations  
+- **OOPs principles** (discussion & examples)  
+- **Basic SQL queries**  
+- **Final-year/personal projects** – Be prepared with:
+  - **Architecture**
+  - **Tech stack**
+  - **Your contribution**
+
+---
+
+## 🗣️ **Round 3 – Group Discussion (GD)**
+
+- Tests **clarity of thought**, **communication**, and **team interaction**  
+- Topics: trending **current affairs**, **abstract themes**, or **social issues**  
+- **Logical presentation** matters more than talking a lot
+
+---
+
+## 👥 **Round 4 – HR Interview**
+
+- **Behavioral questions**: strengths, weaknesses, relocation, career goals, salary  
+- Assesses **alignment with Virtusa’s values** and **future plans**  
+- Be **honest yet strategic**
+
+---
+
+## 🧩 **Tips to Crack Virtusa Placement Drive**
+- **Practice coding** problems with real-world logic & edge cases  
+- Attempt **mock aptitude** and **CS fundamentals** quizzes  
+- Prepare a **strong resume** and expect detailed project-related questions  
+- For GD, **articulate clearly** and **speak with confidence**  
+
+
+---
 
 At our college, the **first round** was held for **4 hours** with **10 sections**.
 
@@ -172,6 +243,7 @@ Virtusa visited campus in July 2022 for the Associate Engineer role through a co
 
 **Reference**
 [GeeksforGeeks](https://www.geeksforgeeks.org/virtusa-interview-experience-for-associate-software-engineer/)
+
 
 
 
