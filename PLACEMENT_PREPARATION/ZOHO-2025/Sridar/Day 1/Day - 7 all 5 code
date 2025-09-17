@@ -1,0 +1,174 @@
+// 1. Write a Program to check if the input strings are equal  word wise 
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s1 = sc.nextLine();
+        String s2 = sc.nextLine();
+
+        if (isRotation(s1, s2)) {
+            System.out.println("Both string are equal but just rotated");
+        } else {
+            System.out.println("Not equal");
+        }
+    }
+
+    public static boolean isRotation(String s1, String s2) {
+        if (s1.length() != s2.length()) {
+            return false;
+        }
+
+        String[] words1 = s1.trim().split("\\s+");
+        String[] words2 = s2.trim().split("\\s+");
+
+        if (words1.length != words2.length) {
+            return false;
+        }
+
+        String doubled = String.join(" ", words1) + " " + String.join(" ", words1);
+
+        return doubled.contains(s2);
+    }
+}
+// Sridhar 
+
+// Write a Java program to find the lucky number( 3 or 4) with given input term of the number
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int count=0;
+        int num=1;
+        int n=sc.nextInt();
+        while(true)//for(int num=1;num<n+1;num++)
+        {
+            if(is3or4(num))
+            {
+            count++;//Increase count 
+            if(count==n)//count equals to input term ha?
+            {
+            System.out.println(num);
+            //break;
+            }
+            }
+            num++;//else increase the num
+        }
+     }
+     public static boolean is3or4(int num)
+     {
+         while(num>0)
+         {
+             int rem=num%10;
+             if(rem==3 || rem==4) //checking last digit of num
+                return true;
+            else 
+                num/=10;// checking tenth digit of num
+         }
+         return false;//method is bool so return must be provided
+     }
+}
+// Sridhar A
+
+// 3. Combinations of given target sum
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] numbers = new int[n];
+        for (int i = 0; i < n; i++) {
+            numbers[i] = scanner.nextInt();
+        }
+        int target = scanner.nextInt();
+        List<List<Integer>> result = findCombinations(numbers, target);
+        for (List<Integer> comb : result) {
+            System.out.println(comb);
+        }}
+    public static List<List<Integer>> findCombinations(int[] numbers, int target) {
+        List<List<Integer>> result = new ArrayList<>();
+        backtrack(numbers, 0, target, new ArrayList<>(), 0, result);
+        return result;
+    }
+    private static void backtrack(int[] numbers, int start, int target, List<Integer> path, int sum, List<List<Integer>> result) {
+        if (sum == target) {
+            result.add(new ArrayList<>(path));
+            return;
+        }
+        if (sum > target) return;
+        for (int i = start; i < numbers.length; i++) {
+            path.add(numbers[i]);
+            backtrack(numbers, i + 1, target, path, sum + numbers[i], result);
+            path.remove(path.size() - 1);
+}
+}
+}
+
+//4. chceking whether binary of value of given number n is palindrom or not 
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        String binary = Integer.toBinaryString(n);
+        String reversed = new StringBuilder(binary).reverse().toString();
+        if (binary.equals(reversed)) {
+            System.out.println("palindrome");
+        } else {
+            System.out.println("not palindrome");
+}}
+}
+// Sridhar 
+
+// 5. find max product of k element in matrix...
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int rows = scanner.nextInt();
+        int cols = scanner.nextInt();
+        int[][] matrix = new int[rows][cols];
+        for (int i = 0; i < rows; i++)
+            for (int j = 0; j < cols; j++)
+                matrix[i][j] = scanner.nextInt();
+        int k = scanner.nextInt();
+        int maxProduct = findMaxProduct(matrix, k);
+        System.out.println(maxProduct);
+    }
+public static int findMaxProduct(int[][] matrix, int k) {
+        int max = Integer.MIN_VALUE;
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (j + k <= cols) {
+                    int product = 1;
+                    for (int x = 0; x < k; x++) product *= matrix[i][j + x];
+                    max = Math.max(max, product);
+                }
+                if (i + k <= rows) {
+                    int product = 1;
+                    for (int x = 0; x < k; x++) product *= matrix[i + x][j];
+                    max = Math.max(max, product);
+                }
+                if (i + k <= rows && j + k <= cols) {
+                    int product = 1;
+                    for (int x = 0; x < k; x++) product *= matrix[i + x][j + x];
+                    max = Math.max(max, product);
+                }
+                if (i + k <= rows && j - k + 1 >= 0) {
+                    int product = 1;
+                    for (int x = 0; x < k; x++) product *= matrix[i + x][j - x];
+                    max = Math.max(max, product);
+                }
+            }
+        }
+        return max;
+}
+}
