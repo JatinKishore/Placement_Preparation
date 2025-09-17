@@ -1,0 +1,35 @@
+
+// Write a Program to check if the input strings are rotated or not word wise!!
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s1 = sc.nextLine();
+        String s2 = sc.nextLine();
+
+        if (isRotation(s1, s2)) {
+            System.out.println("Both string are equal but just rotated");
+        } else {
+            System.out.println("Not equal");
+        }
+    }
+
+    public static boolean isRotation(String s1, String s2) {
+        if (s1.length() != s2.length()) {
+            return false;
+        }
+
+        String[] words1 = s1.trim().split("\\s+");
+        String[] words2 = s2.trim().split("\\s+");
+
+        if (words1.length != words2.length) {
+            return false;
+        }
+
+        String doubled = String.join(" ", words1) + " " + String.join(" ", words1);
+
+        return doubled.contains(s2);
+    }
+}
+// Sridhar A
