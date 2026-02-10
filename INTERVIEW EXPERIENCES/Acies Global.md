@@ -142,3 +142,44 @@ The interview process at Acies Global consists of **5 rounds**:
   - Questions from your preferred programming language.
 
 ## Round 4: HR Discussion
+
+---
+
+# Acies Global
+
+## I. Acies Global Interview Experience
+
+The selection process for Acies Global is comprehensive, focusing on aptitude, communication, and technical depth in core programming and data management.
+
+#### 1. Online Assessment
+- **Format**: 60 questions across 5 sections.
+- **Duration**: Fast-paced (Mail sent 5 mins prior to the start).
+- **Sections**:
+  - Reading Comprehension
+  - Critical Thinking
+  - Problem Solving
+  - Numerical Reasoning
+  - Working with Data
+
+#### 2. Group Discussion (GD)
+- **Focus**: Shortlisted candidates discuss basic/trending topics to evaluate communication and logical thinking.
+
+#### 3. Technical Interview
+- **Project Deep Dive**: Major focus on your academic or personal projects.
+- **Language Fundamentals (C/C++)**: 
+  - Implementation of Classes and Objects.
+  - OOPS concepts in C context.
+- **SQL & Databases**:
+  - Joins: Left Join vs. Right Join.
+  - Aggregate Functions: `SUM`, `AVG`, `COUNT`, `MIN`, `MAX`.
+- **Machine Learning (ML)**:
+  - Basic concepts and definitions.
+
+#### 4. HR Interview
+- **Focus**: Leadership qualities and general behavioral questions.
+
+---
+### **Tips**
+* **Strict Eligibility**: Ensure your CGPA/Percentage meets the 85% threshold as they are strict with registration data.
+* **Database Clarity**: Be ready to explain the visual difference between Join types; they often ask for specific query results based on sample tables.
+* **ML Basics**: Even for developer roles, have a high-level understanding of supervised vs. unsupervised learning.
