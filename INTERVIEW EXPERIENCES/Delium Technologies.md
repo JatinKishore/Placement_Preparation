@@ -29,3 +29,32 @@ Candidates should be prepared to **discuss their projects**, potentially answer 
 
 ### **7. Resume-less interviews**
 - Some candidates have been hired **without submitting a resume**, showing Delium's focus on **overall potential and cultural fit** rather than only qualifications.
+
+---
+# Delium Interview Experience
+
+The recruitment process at **Delium** is centered on evaluating a candidate's high-level logical reasoning and database proficiency. Rather than focusing on standard quantitative aptitude, Delium prioritizes deep, tricky logical puzzles and complex SQL scenarios.
+
+---
+
+## Key Aspects of the Interview Experience
+
+### **1. Logic over Aptitude**
+* **The "Tricky" Filter**: Traditional quantitative aptitude is not the focus. Instead, candidates face a series of **Tricky Logical Questions** designed to test presence of mind and out-of-the-box thinking.
+* **Complexity**: Expect puzzles that require you to break down multi-layered problems before arriving at a solution.
+
+### **2. Advanced SQL Evaluation**
+* **Query Scenarios**: Expect roughly 3 specialized SQL questions. These are not basic "Select" queries but "Tricky" scenarios involving complex joins, subqueries, or window functions.
+* **Data Integrity**: You may be asked to solve problems related to data constraints or handling null values in specific logic-heavy scenarios.
+
+
+
+### **3. Technical Mindset**
+* **Optimization**: Since the questions are tricky, the interviewers are likely looking for how efficiently you can write a query rather than just getting the output.
+
+---
+
+## Interview Rounds Summary
+1.  **Logical & SQL Screening**: A specialized round focusing on 3 tricky SQL challenges and a heavy dose of logical puzzles.
+2.  **Technical Deep-Dive**: Discussion on core technologies, focusing on your ability to handle edge cases and complex data logic.
+3.  **HR Round**: Behavioral assessment and cultural alignment check.

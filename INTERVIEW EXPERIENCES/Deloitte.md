@@ -1,6 +1,6 @@
 # Deloitte
 
-## I. Deloitte Interview Experience
+### Experience I
 
 The selection process for Deloitte typically focuses on core data structures, algorithmic optimization, and database architecture.
 
@@ -32,3 +32,22 @@ The selection process for Deloitte typically focuses on core data structures, al
 ### **Tips**
 * **Communication is Key**: If you explain your logic confidently and correctly, interviewers may waive the requirement to write the full code for certain questions.
 * **Optimization**: For array pair problems, think beyond nested loops; consider modified Merge Sort or Fenwick tree logic for large constraints.
+
+---
+### Experience II 
+Selection Process:
+* PPT Presentation
+* Online Coding Test
+* Technical Interview 1/ 2/3 (Based on the interview performance)
+* HR Interview
+Recruiting Tips
+From developing a standout resume to putting your best foot forward in the interview, we want you to feel prepared
+and confident as you explore opportunities at Hashedin Technologies. Here are some recruiting tips from our Team
+* Be Prepared to discuss your approach to challenges and problem-solving, explaining your thought process and
+decision making.
+* Be ready to discuss personal projects in detail, highlighting your role and contributions to showcase your technical
+skills and communication abilities.
+* Research the company thoroughly to understand its values, mission, culture and recent developments, demonstrating
+your genuine interest.
+* During problem-solving or case study interviews, focus on demonstrating your unique approach and thought process
+by showcasing your innovative thinking.

@@ -1,31 +1,36 @@
 # VisAI Labs
 
-The interview process at VisAI Labs primarily focuses on puzzle-solving and problem-solving rather than traditional aptitude tests. Here are some key aspects of the interview experience:
+## I. Interview Experiences
 
-## Interview Rounds
+### Experience #1: Pattern Recognition & Systems Focus
+* **Initial Screening**: High emphasis on logic puzzles with a complexity twist.
+* **Key Puzzle**: 1000 Jars of Wine (1 poisoned). 
+    * **Optimal Solution**: Binary representation using 10 prisoners (since $2^{10} = 1024 \ge 1000$).
+* **Technical Rounds**: Focused on Resume proficiency (70% bar) and Array manipulation.
+* **Core Technical Problems**:
+    * **Rabbit Problem**: Population growth tracking.
+      * [Click & Solve: Fibonacci Rabbit Sequence](https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/)
+    * **Bank Challan**: $y$ dollars and $x$ cents math puzzle.
+    * **River Boat Width**: Distance/Speed relative meeting points.
+    * **Subarray Logic**: Largest sum of consecutive values.
+      * [Click & Solve: Kadane's Algorithm](https://leetcode.com/problems/maximum-subarray/)
 
-### Round 1: Initial Screening
-- **Puzzle Solving:** Expect easy-level puzzles, such as family relation questions, but with a twist to make them a bit more complex.
-- **Example Puzzle:**
-  - **Problem:** You have 1000 jars of wine, and one jar contains poison. You have 10 prisoners to identify the poisoned jar, but the poison reacts after 24 hours. How do you find the poisoned jar using the minimum number of prisoners?
-  - **Solution Approach:** Utilize the binary search method.
+### Experience #2: Subjective Analytical Round
+* **Format**: 6 complex logical puzzles in a subjective written format.
+* **Elimination**: High-stakes round designed to filter 80% of candidates.
+* **Key Puzzles**:
+    * **Melting Candles**: Thick (6h) vs Thin (3h) candle length ratio.
+      * **Solution**: $t = 2.4 \text{ hours}$ (2 hours 24 minutes).
+    * **Chocolate Mixture**: Profit loss due to rate mixing.
+    * **Code Cracking**: 4-digit deduction from clues (Guess 2468 = zero correct).
+      * **Result**: Code is 3079.
 
-### Technical Rounds
-- **Resume-Based Questions:** Focus on the skills and certificates you are confident about (70% proficiency). You can mention other skills at a basic level during the interview.
-- **Key Topics:**
-  - Arrays
-  - Problem-solving
+---
+## II. Work Experience (Vision/ML Engineer)
 
-#### Example Technical Questions:
-1. **Rabbit Problem:**
-   - **Problem:** A pair of rabbits is left in a field. After one month, the newborn rabbits mature and mate, producing a new pair of rabbits each month. How many pairs will there be at the end of 12 months?
-   
-2. **Bank Challan Problem:**
-   - **Problem:** A person writes x dollars and y cents on a challan to withdraw money, but the bank gives him y dollars and x cents. After spending 20 cents, he realizes he has double the amount he wrote in the challan. How is this possible?
-
-3. **River Boats Problem:**
-   - **Problem:** Two boats start traveling toward each other from opposite banks of a river. When they meet, the distance from shore X is 300m. After reaching the opposite bank and returning, they meet again with 600m from shore X. What is the width of the river?
-
-4. **Subarray Problem:**
-   - **Problem:** Given an array, find the subarray formed with consecutive values that has the largest sum. 
-     - **Example Input:** `[1, 2, 3, -4, 6, 7,
+* **Culture**: Fast-paced startup environment focusing on Computer Vision and AI products.
+* **Pros**: 
+    * Excellent for freshers to learn cutting-edge AI tech stacks.
+    * Direct impact on product development.
+* **Cons**: 
+    * Intense initial assessment rounds can be daunting for those without strong logic foundations.

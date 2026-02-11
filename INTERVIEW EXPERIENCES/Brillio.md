@@ -1,5 +1,30 @@
 # Brillio Technical Interview Experience (On-Campus)
 
+# Brillio Associate NOC Engineer Interview Experience
+
+The recruitment process at **Brillio** for infrastructure roles leans heavily on networking fundamentals and logical scripting. While the interview specifically targets NOC expertise, candidates should be prepared for potential role realignment during the final onboarding stage.
+
+---
+
+## Key Aspects of the Interview Experience
+
+### **1. Core Networking Foundation**
+* **CCNA Standards**: The initial screening is benchmarked against CCNA-level knowledge. Mastering **Routing, Switching, and the OSI Model** is essential to clear the MCQ round.
+* **IP Management**: Expect detailed questions on **Subnetting**, **IP addressing (IPv4/v6)**, and **VLANs**.
+
+
+### **2. Scripting for Automation**
+* **Python for Networking**: Unlike traditional NOC roles, Brillio looks for basic **Python coding** skills. This usually involves string manipulation or basic automation scripts to manage network logs.
+
+### **3. Behavioral & Project Probing**
+* **Resume Ownership**: The technical round is heavily centered around your self-introduction and the projects listed on your resume. Be ready to explain your specific contribution to any network simulation or setup.
+* **Pressure Management**: The final round is managerial. They test your ability to handle high-pressure environments, such as network outages or service desk surges, using situational questions.
+
+### **⚠️ Critical Note: Role Realignment**
+* Candidates have reported that Brillio may reassign roles during onboarding. For instance, those interviewed for Developer or NOC roles may occasionally be placed in **Service Desk** positions based on business requirements.
+
+---
+
 ## Last Updated: 08 Feb, 2021
 
 Brillio visited our college for full-time hiring with a CGPA criterion of 7 and above.

@@ -1,7 +1,7 @@
 # AVASOFT
 
 ---
-#### I. Avasoft - Interview Experience
+## I. Avasoft - Interview Experience
 **Role:** Trainee Engineer  
 **Process Location:** Chennai, On-Campus  
 **Company Location:** Chennai, Navallur  
@@ -114,3 +114,78 @@
 * Coding: **Not confirmed** (For cloud-based roles → only MCQ from **Networking**, **AWS**, **OS**, etc.)
 
 
+---
+
+# AVASOFT
+
+## I. AVASOFT Interview Experience
+
+**Role**: Cloud and DevOps Engineer  
+**Format**: 100% Virtual  
+**Outcome**: Selected
+
+The selection process is structured to evaluate communication, technical foundational knowledge, and the candidate's genuine interest in the Cloud domain.
+
+#### 1. Group Discussion (GD)
+- **Topic Example**: "Digitalized world is making the human lazy."
+- **Key Insight**: It functions more like a Just-A-Minute (JAM) session than a debate.
+- **Expectation**: Focus on calm, clear communication rather than deep content expertise.
+
+#### 2. Technical Interview (Round 1)
+- **General/Logistics**: Willingness to relocate, family background/native.
+- **Cloud & DevOps Fundamentals**:
+    - Definitions: Cloud, DevOps, and how the Internet works.
+    - Models: Deployment models (Public, Private, Hybrid) and Service models (IaaS, PaaS, SaaS).
+    - Tools: Docker, Kubernetes, and basic Linux scripting/commands.
+    - Git: Handling Merge Conflicts.
+- **AWS Specifics**: Hands-on experience with services like **EC2, Lambda, and IAM**.
+- **Major Filter**: Discussion on projects involving Cloud. Having a solid project is a significant clearing factor.
+
+#### 3. Technical Interview (Round 2)
+- **Technical Deep-Dive**: Similar technical scope as the first round but with added complexity.
+- **Behavioral Focus**: Unique personal answers are preferred over generic or AI-generated responses.
+
+#### 4. HR Interview
+- **Self-Intro**: Brief introduction and background.
+- **Background Pivot**: Discussion on why an EEE student is moving into Cloud (Project-led explanation).
+- **Final Checks**: Relocation details and behavioral fit.
+
+
+### **Tips**
+* **Project is King**: If you have a Cloud-based project, prioritize explaining it; it often acts as the "cleared" signal for interviewers.
+* **Honesty Policy**: If you don't know an answer, it is better to state you aren't aware rather than guessing.
+
+
+---
+
+# AVASOFT Trainee Engineer Interview Experience
+
+The **AVASOFT Trainee Engineer** interview process emphasizes the bridge between logic and implementation. Unlike many firms that only care about the output, AVASOFT interviewers frequently ask you to refactor your code (e.g., from ES6 `map` to traditional `for` loops) to test your understanding of "under-the-hood" operations.
+
+---
+
+## Key Aspects of the Interview Experience
+
+### **1. Personal & Project Deep-Dive**
+* **Internship Value**: Be prepared to discuss exactly what your role was during your internship. They look for ownership rather than just participation.
+* **Project Ownership**: You must be able to specify exactly which modules or components you built yourself.
+
+### **2. DOM & JSON Integration**
+* **Scenario**: A common task is manipulating the DOM based on JSON data.
+* **Example**: "If age in JSON > 18, change card color to Blue; else Green." This tests your ability to parse data and apply inline styles or class toggles dynamically.
+
+### **3. Array Logic & Optimization**
+* **Map vs. For Loop**: While ES6 methods like `.map()` are standard, interviewers may challenge you to use a `for` loop to explain the iteration logic line-by-line.
+* **Conditional Replacement**: Tasks often involve replacing specific elements (e.g., replacing odd numbers with 0) while maintaining the rest of the array.
+* **Position-Based Logic**: Advanced variations include checks on both the **value** and the **index** (e.g., if value is odd AND position is odd, replace with 0).
+
+### **4. Randomization & Shuffling**
+* **Algorithm**: Expect to implement or explain an array randomization logic (like the Fisher-Yates shuffle) after performing transformations.
+
+---
+
+## Interview Rounds Summary
+1. **Self-Introduction & Background**: Focus on academic projects and internship details.
+2. **Technical Scenario Round**: Live coding on DOM manipulation and JSON data.
+3. **Logic Refinement**: Re-writing ES6 code into traditional loops and explaining the "Why."
+4. **HR & Salary Discussion**: Finalizing expectations and cultural fitment.

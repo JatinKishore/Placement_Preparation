@@ -1,0 +1,28 @@
+# Neurealm Interview Experience
+
+The **Neurealm** recruitment process is designed to filter for high-caliber technical talent through a multi-layered assessment strategy. The process shifts significantly based on seniority: entry-level candidates face a comprehensive 4-round gauntlet, while experienced professionals typically undergo a streamlined 1-2 round process.
+
+---
+
+## Key Aspects of the Interview Experience
+
+### **1. Communication & Aptitude Filtering**
+* **Initial Screening**: The process often begins with an **Online Communication Assessment** focusing on English grammar, vocabulary, and verbal clarity.
+* **Written Assessments**: Expect basic aptitude tests and written rounds that combine logical reasoning with **SQL** and programming logic.
+
+### **2. Technical Depth & Domain Expertise**
+* **Core Tech Stack**: Interviews focus heavily on **Java, Python, Spring Boot, Hibernate**, and **OOP** concepts.
+* **Coding Proficiency**: Candidates must pass live coding tests that range in difficulty from easy to hard, depending on the role requirements.
+* **Domain Knowledge**: For experienced hires, managerial rounds dive into **Technical Design** and specific domain architecture.
+
+### **3. Collaborative & Final Evaluation**
+* **Group Discussion (GD)**: Some entry-level roles include a GD to assess presence of mind and teamwork on general topics.
+* **HR Round**: The final stage involves transparency regarding client information, salary negotiations, and role expectations.
+
+---
+
+## Interview Rounds Summary
+1.  **Communication Assessment**: Online test for vocabulary and speaking skills.
+2.  **Aptitude & Coding Test**: Logical reasoning and algorithmic challenges.
+3.  **Technical Rounds**: 1-2 rounds covering Spring Boot, Hibernate, and SQL deep-dives.
+4.  **HR Interview**: Salary discussion and job detail finalization.

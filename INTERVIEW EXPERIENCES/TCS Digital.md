@@ -98,3 +98,27 @@ Take a number, divide it by half, and add 10 to it.
 3. Practice logical and reasoning problems to demonstrate quick thinking.  
 4. Be honest and confident while answering HR questions.  
 
+---
+# TCS NQT 2026 Interview Experience
+
+The TCS NQT 2026 recruitment for the **2026 Batch** follows an integrated pattern where your performance in a single 180-minute test determines your placement into **Ninja**, **Digital**, or **Prime** roles.
+
+## Integrated Test Pattern (Total: 180-190 Minutes)
+
+### 1. Foundation Section (75 Mins)
+* **Numerical Ability**: 20 Questions (25 mins) - Focus on Percentages, Profit/Loss, Time & Work.
+* **Verbal Ability**: 25 Questions (25 mins) - Focus on Grammar, Cloze Test, Reading Comprehension.
+* **Reasoning Ability**: 20 Questions (25 mins) - Focus on Blood Relations, Puzzles, Series.
+
+### 2. Advanced Section (115 Mins)
+* **Advanced Quantitative & Reasoning**: 15 Questions (25 mins) - High-level Algebra, Geometry, and Complex Logic.
+* **Advanced Coding**: 3 Questions (90 mins) - Array manipulation, String algorithms, and Dynamic Programming.
+
+---
+
+## Technical & HR Interview
+* **Ninja**: Focus on Resume projects, OOPS, DBMS, and basic coding logic.
+* **Digital/Prime**: Focus on Advanced Data Structures, System Design, AI/ML, and Cloud concepts.
+
+## Offer Upgrades
+If you receive a **Ninja** offer, you are eligible for the **Digital/Prime Upgrade Exams** (internal proctored tests) after joining to increase your CTC.
