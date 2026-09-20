@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ultimate Elite Platform Engineer Quest</title>
+    <style>
+        :root {
+            --bg-color: #131f24;
+            --text-color: #ffffff;
+            --duo-green: #58cc02;
+            --duo-green-down: #46a302;
+            --duo-blue: #1cb0f6;
+            --duo-blue-down: #1899d6;
+            --duo-orange: #ff9600;
+            --duo-orange-down: #e68500;
+            --card-bg: #202f36;
+            --border-color: #37464f;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Din Round', 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: #fff;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 0 4px #000;
+        }
+
+        .subtitle {
+            color: #afafaf;
+            font-size: 1rem;
+        }
+
+        .global-progress-container {
+            width: 100%;
+            max-width: 500px;
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 60px;
+            box-shadow: 0 6px 0 var(--border-color);
+            position: sticky;
+            top: 10px;
+            z-index: 100;
+        }
+
+        .progress-bar-outer {
+            width: 100%;
+            background-color: #37464f;
+            height: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-bar-inner {
+            height: 100%;
+            width: 0%;
+            background-color: var(--duo-green);
+            transition: width 0.3s ease-in-out;
+        }
+
+        .progress-text {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8px;
+            font-weight: bold;
+            font-size: 0.85rem;
+            color: var(--duo-green);
+        }
+
+        /* The Relative Roadmap Canvas container */
+        .roadmap-path {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        /* Dynamic SVG Ribbon Background Track */
+        .path-svg {
+            position: absolute;
+            top: 40px;
+            left: 0;
+            width: 100%;
+            height: calc(100% - 80px);
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .path-line-bg {
+            fill: none;
+            stroke: #25353d;
+            stroke-width: 16;
+            stroke-linecap: round;
+        }
+
+        .path-line-active {
+            fill: none;
+            stroke: var(--duo-green);
+            stroke-width: 16;
+            stroke-linecap: round;
+            stroke-dasharray: 5000;
+            stroke-dashoffset: 5000;
+            transition: stroke-dashoffset 0.4s ease-out;
+        }
+
+        /* Alternating Node Containers */
+        .node-container {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 80px;
+        }
+
+        /* Alternate alignments mimicking the classic game layout */
+        .node-container.pos-left { align-items: flex-start; padding-left: 20px;}
+        .node-container.pos-center { align-items: center; }
+        .node-container.pos-right { align-items: flex-end; padding-right: 20px;}
+
+        .node-interactive-block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 300px;
+        }
+
+        .date-badge {
+            background-color: var(--duo-orange);
+            color: white;
+            padding: 4px 14px;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-bottom: 12px;
+            box-shadow: 0 3px 0 var(--duo-orange-down);
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        .push-button {
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            border: none;
+            background-color: var(--duo-blue);
+            box-shadow: 0 6px 0 var(--duo-blue-down);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.1s ease;
+        }
+
+        .push-button:active {
+            transform: translateY(3px);
+            box-shadow: 0 3px 0 var(--duo-blue-down);
+        }
+
+        .push-button.completed {
+            background-color: var(--duo-green);
+            box-shadow: 0 6px 0 var(--duo-green-down);
+        }
+
+        .push-button.completed:active {
+            box-shadow: 0 3px 0 var(--duo-green-down);
+        }
+
+        .push-button svg {
+            width: 32px;
+            height: 32px;
+            fill: white;
+        }
+
+        .content-card {
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 16px;
+            padding: 16px;
+            margin-top: 15px;
+            width: calc(100vw - 40px);
+            max-width: 440px;
+            box-shadow: 0 5px 0 var(--border-color);
+            align-self: center;
+        }
+
+        /* Context alignment adjustments for popup cards */
+        .pos-left .content-card { transform: translateX(20px); }
+        .pos-right .content-card { transform: translateX(-20px); }
+
+        .course-tag {
+            font-size: 0.75rem;
+            color: var(--duo-blue);
+            font-weight: bold;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .content-card h3 {
+            font-size: 1rem;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .growth-task-box {
+            background-color: #1c282e;
+            border-left: 4px solid var(--duo-orange);
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            margin-bottom: 12px;
+            color: #e3e3e3;
+        }
+
+        .qa-box {
+            background-color: #131f24;
+            border: 1px dashed var(--border-color);
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            color: #afafaf;
+        }
+
+        .qa-title {
+            color: var(--duo-blue);
+            font-weight: bold;
+            margin-bottom: 4px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>The Platform Elite Quest</h1>
+        <div class="subtitle">Complete Chronological Curriculum Blueprint</div>
+    </header>
+
+    <div class="global-progress-container">
+        <div class="progress-bar-outer">
+            <div class="progress-bar-inner" id="globalProgress"></div>
+        </div>
+        <div class="progress-text">
+            <span>QUEST PROGRESSION</span>
+            <span id="progressPercent">0%</span>
+        </div>
+    </div>
+
+    <div class="roadmap-path">
+        <!-- The Adaptive SVG S-Curve Path Ribbon -->
+        <svg class="path-svg">
+            <path id="bgLine" class="path-line-bg" d="" />
+            <path id="activeLine" class="path-line-active" d="" />
+        </svg>
+
+        <div id="roadmapContainer"></div>
+    </div>
+
+    <script>
+        const curriculum = [
+            // Telusko
+            { course: "Telusko", title: "Git for Beginner", section: "Git Core Basics & Distributed Version Control Foundations" },
+
+            // Imran Afzal Linux
+            { course: "Imran Afzal Linux", title: "Linux Administration Bootcamp", section: "Section 1: Module 1 - Introduction to Linux" },
+            { course: "Imran Afzal Linux", title: "Linux Administration Bootcamp", section: "Section 2: Module 2 - Download, Install and Configure" },
+            { course: "Imran Afzal Linux", title: "Linux Administration Bootcamp", section: "Section 3: Module 3 - System Access and File System" },
+            { course: "Imran Afzal Linux", title: "Linux Administration Bootcamp", section: "Section 4: Module 4 - Linux Fundamentals" },
+            { course: "Imran Afzal Linux", title: "Linux Administration Bootcamp", section: "Section 5: Module 5 - System Administration" },
+            { course: "Imran Afzal Linux", title: "Linux Administration Bootcamp", section: "Section 6: Module 6 - Shell Scripting" },
+            { course: "Imran Afzal Linux", title: "Linux Administration Bootcamp", section: "Section 7: Module 7 - Networking, Services, and System Updates" },
+            { course: "Imran Afzal Linux", title: "Linux Administration Bootcamp", section: "Section 8: Module 8 - Disk Management and Run Levels" },
+            { course: "Imran Afzal Linux", title: "Linux Administration Bootcamp", section: "Section 9: Module 9 - All About Resume" },
+            { course: "Imran Afzal Linux", title: "Linux Administration Bootcamp", section: "Section 10: Module 10 - All About Interview" },
+            { course: "Imran Afzal Linux", title: "Linux Administration Bootcamp", section: "Section 11: Course Recap and Linux future" },
+            { course: "Imran Afzal Linux", title: "Linux Administration Bootcamp", section: "Section 12: Additional Resources" },
+            { course: "Imran Afzal Linux", title: "Linux Administration Bootcamp", section: "Section 13: Bonus" },
+
+            // AWS Associate
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 1: Introduction - AWS Certified Solutions Architect Associate" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 2: Code & Slides Download" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 3: Getting started with AWS" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 4: IAM & AWS CLI" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 5: EC2 Fundamentals" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 6: EC2 - Solutions Architect Associate Level" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 7: EC2 Instance Storage" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 8: High Availability and Scalability: ELB & ASG" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 9: AWS Fundamentals: RDS + Aurora + ElastiCache" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 10: Route 53" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 11: Classic Solutions Architecture Discussions" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 12: Amazon S3 Introduction" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 13: Advanced Amazon S3" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 14: Amazon S3 Security" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 15: CloudFront & AWS Global Accelerator" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 16: AWS Storage Extras" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 17: Decoupling applications: SQS, SNS, Kinesis, Active MQ" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 18: Containers on AWS: ECS, Fargate, ECR & EKS" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 19: Serverless Overviews from a Solution Architect Perspective" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 20: Serverless Solution Architecture Discussions" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 21: Databases in AWS" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 22: Data & Analytics" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 23: Machine Learning" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 24: AWS Monitoring & Audit: CloudWatch, CloudTrail & Config" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 25: Identity and Access Management (IAM) - Advanced" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 26: AWS Security & Encryption: KMS, SSM Parameter" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 27: Networking - VPC" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 28: Disaster Recovery & Migrations" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 29: More Solution Architectures" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 30: Other Services" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 31: WhitePapers and Architectures - AWS Certified" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 32: Preparing for the Exam + Practice Exam - AWS Certified" },
+            { course: "Stephane Maarek AWS SAA", title: "AWS Solutions Architect Associate", section: "Section 33: Congratulations - AWS Certified Solutions Architect Associate" },
+
+            // AWS Professional
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 1: Course Introduction" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 2: Slides Download" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 3: Identity & Federation" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 4: Security" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 5: Compute & Load Balancing" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 6: Storage" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 7: Caching" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 8: Databases" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 9: Service Communication" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 10: Data Engineering" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 11: Monitoring" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 12: Deployment and Instance Management" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 13: Cost Control" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 14: Migration" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 15: VPC" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 16: Machine Learning" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 17: Other Services" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 18: Exam Preparation" },
+            { course: "Stephane Maarek AWS SAP", title: "AWS Solutions Architect Professional", section: "Section 19: Congratulations" },
+
+            // AWS DevOps Professional
+            { course: "Stephane Maarek AWS DOP", title: "AWS Certified DevOps Engineer Professional", section: "Section 1: Course Overview - AWS Certified DevOps Engineer" },
+            { course: "Stephane Maarek AWS DOP", title: "AWS Certified DevOps Engineer Professional", section: "Section 2: Code & Slides Download" },
+            { course: "Stephane Maarek AWS DOP", title: "AWS Certified DevOps Engineer Professional", section: "Section 3: Domain 1: SDLC Automation" },
+            { course: "Stephane Maarek AWS DOP", title: "AWS Certified DevOps Engineer Professional", section: "Section 4: Domain 2: Configuration Management & IaC" },
+            { course: "Stephane Maarek AWS DOP", title: "AWS Certified DevOps Engineer Professional", section: "Section 5: Domain 3: Resilient Cloud Solutions" },
+            { course: "Stephane Maarek AWS DOP", title: "AWS Certified DevOps Engineer Professional", section: "Section 6: Domain 4: Monitoring and Logging" },
+            { course: "Stephane Maarek AWS DOP", title: "AWS Certified DevOps Engineer Professional", section: "Section 7: Domain 5: Incident and Event Response" },
+            { course: "Stephane Maarek AWS DOP", title: "AWS Certified DevOps Engineer Professional", section: "Section 8: Domain 6: Security and Compliance" },
+            { course: "Stephane Maarek AWS DOP", title: "AWS Certified DevOps Engineer Professional", section: "Section 9: Other Services" },
+            { course: "Stephane Maarek AWS DOP", title: "AWS Certified DevOps Engineer Professional", section: "Section 10: Course Wrap-up" },
+
+            // Bryan Krausen Terraform Essentials
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 1: Introduction" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 2: Preparing Your Environment" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 3: Terraform Foundations" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 4: The Core Terraform Workflow" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 5: Terraform CLI" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 6: Terraform File Structure and Organization" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 7: Terraform Configuration - Fundamentals" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 8: Hands-On Labs - Writing Your First Terraform Configurations" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 9: Understanding and Managing Terraform State" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 10: Making Code Reusable" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 11: Refactoring Terraform State" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 12: Terraform Modules" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 13: Managing Resource Behavior and Dependencies" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 14: Securing Terraform Configurations" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 15: Terraform Troubleshooting" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 16: HCP Terraform" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 17: Exam Prep Essentials: What to Know for Each Objective" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 18: Practice Exam" },
+            { course: "Bryan Krausen Terraform", title: "Terraform Associate (004)", section: "Section 19: BONUS" },
+
+            // Terraform Practice Tests
+            { course: "Bryan Krausen Exams", title: "Terraform Associate 004 Practice Sets", section: "Terraform Associate 004 - Exam #1 (Practice Test - 57 questions)" },
+            { course: "Bryan Krausen Exams", title: "Terraform Associate 004 Practice Sets", section: "Terraform Associate 004 - Exam #2 (Practice Test - 57 questions)" },
+            { course: "Bryan Krausen Exams", title: "Terraform Associate 004 Practice Sets", section: "Terraform Associate 004 - Exam #3 (Practice Test - 57 questions)" },
+            { course: "Bryan Krausen Exams", title: "Terraform Associate 004 Practice Sets", section: "Terraform Associate 004 - Exam #4 (Practice Test - 57 questions)" },
+            { course: "Bryan Krausen Exams", title: "Terraform Associate 004 Practice Sets", section: "Terraform Associate 004 - Exam #5 (Practice Test - 57 questions)" },
+            { course: "Bryan Krausen Exams", title: "Terraform Associate 004 Practice Sets", section: "Terraform Associate 004 - Exam #6 (Practice Test - 57 questions)" },
+
+            // Ansible Beginners
+            { course: "KodeKloud Ansible", title: "Ansible for Beginners", section: "Section 1: Introduction" },
+            { course: "KodeKloud Ansible", title: "Ansible for Beginners", section: "Section 2: Configuration and Basic Concepts" },
+            { course: "KodeKloud Ansible", title: "Ansible for Beginners", section: "Section 3: Ansible Inventory" },
+            { course: "KodeKloud Ansible", title: "Ansible for Beginners", section: "Section 4: Ansible Variables" },
+            { course: "KodeKloud Ansible", title: "Ansible for Beginners", section: "Section 5: Ansible Playbooks" },
+            { course: "KodeKloud Ansible", title: "Ansible for Beginners", section: "Section 6: Ansible Modules" },
+            { course: "KodeKloud Ansible", title: "Ansible for Beginners", section: "Section 7: Ansible Handlers, Roles and Collections" },
+            { course: "KodeKloud Ansible", title: "Ansible for Beginners", section: "Section 8: Advanced Topics" },
+            { course: "KodeKloud Ansible", title: "Ansible for Beginners", section: "Section 9: Appendix" },
+
+            // Ansible Advanced
+            { course: "KodeKloud Ansible Adv", title: "Ansible Advanced Masterclass", section: "Section 1: Introduction" },
+            { course: "KodeKloud Ansible Adv", title: "Ansible Advanced Masterclass", section: "Section 2: Web Application" },
+            { course: "KodeKloud Ansible Adv", title: "Ansible Advanced Masterclass", section: "Section 3: File Separation" },
+            { course: "KodeKloud Ansible Adv", title: "Ansible Advanced Masterclass", section: "Section 4: Roles" },
+            { course: "KodeKloud Ansible Adv", title: "Ansible Advanced Masterclass", section: "Section 5: Asynchronous Actions" },
+            { course: "KodeKloud Ansible Adv", title: "Ansible Advanced Masterclass", section: "Section 6: Strategy" },
+            { course: "KodeKloud Ansible Adv", title: "Ansible Advanced Masterclass", section: "Section 7: Error Handling" },
+            { course: "KodeKloud Ansible Adv", title: "Ansible Advanced Masterclass", section: "Section 8: Templating - Jinja2" },
+            { course: "KodeKloud Ansible Adv", title: "Ansible Advanced Masterclass", section: "Section 9: Lookups" },
+            { course: "KodeKloud Ansible Adv", title: "Ansible Advanced Masterclass", section: "Section 10: Vault" },
+            { course: "KodeKloud Ansible Adv", title: "Ansible Advanced Masterclass", section: "Section 11: Dynamic Inventory" },
+            { course: "KodeKloud Ansible Adv", title: "Ansible Advanced Masterclass", section: "Section 12: Custom Modules" },
+            { course: "KodeKloud Ansible Adv", title: "Ansible Advanced Masterclass", section: "Section 13: Plugins" },
+
+            // KodeKloud CKA
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 1: Introduction" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 2: Core Concepts" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 3: Scheduling" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 4: Logging & Monitoring" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 5: Application Lifecycle Management" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 6: Cluster Maintenance" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 7: Security" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 8: Storage" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 9: Networking" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 10: Design and Install a Kubernetes Cluster" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 11: Install 'Kubernetes the kubeadm way'" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 12: (2025 Updates) Helm Basics" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 13: (2025 Updates) Kustomize Basics" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 14: Troubleshooting" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 15: Other Topics" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 16: Lightning Labs" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 17: Mock Exams" },
+            { course: "KodeKloud CKA", title: "Certified Kubernetes Administrator", section: "Section 18: Bonus Section" },
+
+            // ArgoCD
+            { course: "ArgoCD & Rollouts", title: "GitOps Application Delivery", section: "Section 1: Introduction" },
+            { course: "ArgoCD & Rollouts", title: "GitOps Application Delivery", section: "Section 2: Environment Setup" },
+            { course: "ArgoCD & Rollouts", title: "GitOps Application Delivery", section: "Section 3: Introduction to GitOps" },
+            { course: "ArgoCD & Rollouts", title: "GitOps Application Delivery", section: "Section 4: [Argo CD] Getting Started with Argo CD" },
+            { course: "ArgoCD & Rollouts", title: "GitOps Application Delivery", section: "Section 5: [Argo CD] Core Argo CD Concepts" },
+            { course: "ArgoCD & Rollouts", title: "GitOps Application Delivery", section: "Section 6: [Argo CD] Working with Helm Charts" },
+            { course: "ArgoCD & Rollouts", title: "GitOps Application Delivery", section: "Section 7: [Argo CD] Advanced Sync and Automation" },
+            { course: "ArgoCD & Rollouts", title: "GitOps Application Delivery", section: "Section 8: [Argo CD] Private Repositories" },
+            { course: "ArgoCD & Rollouts", title: "GitOps Application Delivery", section: "Section 9: [Argo CD] Orchestrating Applications" },
+            { course: "ArgoCD & Rollouts", title: "GitOps Application Delivery", section: "Section 10: [Argo Rollouts] Introduction to Argo Rollouts" },
+            { course: "ArgoCD & Rollouts", title: "GitOps Application Delivery", section: "Section 11: [Argo Rollouts] Your First Rollout" },
+            { course: "ArgoCD & Rollouts", title: "GitOps Application Delivery", section: "Section 12: [Argo Rollouts] Core Rollout Strategies" },
+            { course: "ArgoCD & Rollouts", title: "GitOps Application Delivery", section: "Section 13: [Argo Rollouts] Advanced Traffic Management" },
+            { course: "ArgoCD & Rollouts", title: "GitOps Application Delivery", section: "Section 14: [Argo Rollouts] Automated Analysis and Promotion" },
+            { course: "ArgoCD & Rollouts", title: "GitOps Application Delivery", section: "Section 15: Conclusion" },
+
+            // GitHub Actions
+            { course: "Maximilian GitHub", title: "GitHub Actions — The Complete Guide", section: "Section 1: Getting Started" },
+            { course: "Maximilian GitHub", title: "GitHub Actions — The Complete Guide", section: "Section 2: Git & GitHub Crash Course [Optional]" },
+            { course: "Maximilian GitHub", title: "GitHub Actions — The Complete Guide", section: "Section 3: GitHub Actions - Basic Building Blocks & Components" },
+            { course: "Maximilian GitHub", title: "GitHub Actions — The Complete Guide", section: "Section 4: Workflows & Events - Deep Dive" },
+            { course: "Maximilian GitHub", title: "GitHub Actions — The Complete Guide", section: "Section 5: Job Artifacts & Outputs" },
+            { course: "Maximilian GitHub", title: "GitHub Actions — The Complete Guide", section: "Section 6: Using Environment Variables & Secrets" },
+            { course: "Maximilian GitHub", title: "GitHub Actions — The Complete Guide", section: "Section 7: Controlling Workflow & Job Execution" },
+            { course: "Maximilian GitHub", title: "GitHub Actions — The Complete Guide", section: "Section 8: Jobs & Docker Containers" },
+            { course: "Maximilian GitHub", title: "GitHub Actions — The Complete Guide", section: "Section 9: Building & Using Custom Actions" },
+            { course: "Maximilian GitHub", title: "GitHub Actions — The Complete Guide", section: "Section 10: Security & Permissions" },
+            { course: "Maximilian GitHub", title: "GitHub Actions — The Complete Guide", section: "Section 11: Wrap Up" },
+
+            // OpenTelemetry
+            { course: "Arun Krishnan", title: "OpenTelemetry Foundations", section: "Section 2: Observability" },
+            { course: "Arun Krishnan", title: "OpenTelemetry Foundations", section: "Section 3: Learning Environment" },
+            { course: "Arun Krishnan", title: "OpenTelemetry Foundations", section: "Section 4: Instrumentation" },
+            { course: "Arun Krishnan", title: "OpenTelemetry Foundations", section: "Section 5: Telemetry Signals" },
+            { course: "Arun Krishnan", title: "OpenTelemetry Foundations", section: "Section 6: SDK Architecture and Composability" },
+            { course: "Arun Krishnan", title: "OpenTelemetry Foundations", section: "Section 7: Standards" },
+            { course: "Arun Krishnan", title: "OpenTelemetry Foundations", section: "Section 8: Collector" },
+            { course: "Arun Krishnan", title: "OpenTelemetry Foundations", section: "Section 9: Debugging & Maintenance" },
+            { course: "Arun Krishnan", title: "OpenTelemetry Foundations", section: "Section 10: SRE Principles" },
+            { course: "Arun Krishnan", title: "OpenTelemetry Foundations", section: "Section 11: What's Next" },
+
+            // Python Automation
+            { course: "Lauro Fialho Müller", title: "Python automation for Operations", section: "Section 1: Welcome and Introduction" },
+            { course: "Lauro Fialho Müller", title: "Python automation for Operations", section: "Section 2: Setting Up and Running Python" },
+            { course: "Lauro Fialho Müller", title: "Python automation for Operations", section: "Section 3: Python Fundamentals" },
+            { course: "Lauro Fialho Müller", title: "Python automation for Operations", section: "Section 4: Generators and Decorators" },
+            { course: "Lauro Fialho Müller", title: "Python automation for Operations", section: "Section 5: Error Handling and Context Managers" },
+            { course: "Lauro Fialho Müller", title: "Python automation for Operations", section: "Section 6: Logging for Operations" },
+            { course: "Lauro Fialho Müller", title: "Python automation for Operations", section: "Section 7: Files, Regex, and Serialization" },
+            { course: "Lauro Fialho Müller", title: "Python automation for Operations", section: "Section 8: System Interaction and Automation" },
+            { course: "Lauro Fialho Müller", title: "Python automation for Operations", section: "Section 9: Interacting with APIs using requests" },
+            { course: "Lauro Fialho Müller", title: "Python automation for Operations", section: "Section 10: Static Typing and Type Hints" },
+            { course: "Lauro Fialho Müller", title: "Python automation for Operations", section: "Section 11: Automated Testing with Pytest" },
+            { course: "Lauro Fialho Müller", title: "Python automation for Operations", section: "Section 12: Structuring Python Projects" },
+            { course: "Lauro Fialho Müller", title: "Python automation for Operations", section: "Section 13: CI/CD for Python Projects" },
+            { course: "Lauro Fialho Müller", title: "Python automation for Operations", section: "Section 14: Conclusion" },
+
+            // Abhishek Veeramalla
+            { course: "Abhishek Veeramalla", title: "DevOps Interview Preparation", section: "Section 1: Introduction" },
+            { course: "Abhishek Veeramalla", title: "DevOps Interview Preparation", section: "Section 2: Git" },
+            { course: "Abhishek Veeramalla", title: "DevOps Interview Preparation", section: "Section 3: Linux" },
+            { course: "Abhishek Veeramalla", title: "DevOps Interview Preparation", section: "Section 4: Networking" },
+            { course: "Abhishek Veeramalla", title: "DevOps Interview Preparation", section: "Section 5: CI/CD" },
+            { course: "Abhishek Veeramalla", title: "DevOps Interview Preparation", section: "Section 6: Terraform" },
+            { course: "Abhishek Veeramalla", title: "DevOps Interview Preparation", section: "Section 7: Docker" },
+            { course: "Abhishek Veeramalla", title: "DevOps Interview Preparation", section: "Section 8: Kubernetes" },
+            { course: "Abhishek Veeramalla", title: "DevOps Interview Preparation", section: "Section 9: Observability" },
+            { course: "Abhishek Veeramalla", title: "DevOps Interview Preparation", section: "Section 10: AWS" },
+            { course: "Abhishek Veeramalla", title: "DevOps Interview Preparation", section: "Section 11: Azure" },
+            { course: "Abhishek Veeramalla", title: "DevOps Interview Preparation", section: "Section 12: Python" },
+            { course: "Abhishek Veeramalla", title: "DevOps Interview Preparation", section: "Section 13: Project Management and SDLC" },
+
+            // Regunathan
+            { course: "Regunathan K.", title: "DevOps Interview Prep", section: "Section 1: Introduction" },
+            { course: "Regunathan K.", title: "DevOps Interview Prep", section: "Section 2: Sections -1" },
+            { course: "Regunathan K.", title: "DevOps Interview Prep", section: "Section 3: Section-2" },
+            { course: "Regunathan K.", title: "DevOps Interview Prep", section: "Section 4: Section-3" },
+            { course: "Regunathan K.", title: "DevOps Interview Prep", section: "Section 5: Section-4" },
+            { course: "Regunathan K.", title: "DevOps Interview Prep", section: "Section 6: Section-5" },
+            { course: "Regunathan K.", title: "DevOps Interview Prep", section: "Section 7: Section-6" },
+            { course: "Regunathan K.", title: "DevOps Interview Prep", section: "Section 8: Section-7" },
+            { course: "Regunathan K.", title: "DevOps Interview Prep", section: "Section 9: Section-08" },
+            { course: "Regunathan K.", title: "DevOps Interview Prep", section: "Section 10: Linux" }
+        ];
+
+        const networkingPool = [
+            "Send a crisp, personalized cold message to an SRE Team Lead at Goldman Sachs focusing on infrastructural scaling parameters.",
+            "Connect with a Senior Infrastructure Automation Engineer at Atlassian. Inquire directly about their hybrid cloud deployment strategy.",
+            "Locate a Tech Lead at Netflix managing Chaos Engineering patterns. Share a quick detail concerning high-concurrency configurations.",
+            "Identify an Engineering Principal inside a MAANG tier team. Drop an introductory message highlighting automated GitOps promotion flows."
+        ];
+
+        const technicalPool = [
+            "Publish a practical engineering post on LinkedIn highlighting a failure scenario and solution logic related to today's core architectural topic.",
+            "Draft a structured architectural breakdown note comparing production operational limitations of today's framework parameters.",
+            "Map out a clean technical diagram outlining optimization strategies for today's system components and share it directly with your community group."
+        ];
+
+        const validationPool = [
+            "Explain the architectural difference between directory-based vs workspace-based isolation patterns under distributed remote backend constraints.",
+            "How does a Free Execution strategy in configuration management tools alter highly concurrent node updates compared to default Linear strategies?",
+            "What architectural procedures effectively prevent state file race conditions when configuring parallel decoupled infrastructure components?",
+            "Describe the exact routing mechanism an automated deployment engine leverages to analyze custom metrics before triggering dynamic rollback routines.",
+            "Detail the kernel-level components responsible for processing isolated cluster network packet switching across highly secure namespace boundaries."
+        ];
+
+        let startDate = new Date(2026, 6, 12);
+        const roadmapContainer = document.getElementById('roadmapContainer');
+        let checkedStates = JSON.parse(localStorage.getItem('eliteQuestProgressV3')) || new Array(curriculum.length).fill(false);
+
+        // Sequence positions array to map the S-curve zig-zag path smoothly
+        const patterns = ['pos-center', 'pos-left', 'pos-center', 'pos-right'];
+
+        function generateRoadmap() {
+            roadmapContainer.innerHTML = '';
+
+            curriculum.forEach((item, index) => {
+                let currentDay = new Date(startDate);
+                currentDay.setDate(startDate.getDate() + index);
+
+                let dateStr = currentDay.toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' });
+                let growthTask = (index % 2 === 0) ? technicalPool[index % technicalPool.length] : networkingPool[index % networkingPool.length];
+                let interviewQ = validationPool[index % validationPool.length];
+
+                // Determine row positioning variant
+                let positionClass = patterns[index % patterns.length];
+
+                let node = document.createElement('div');
+                node.className = `node-container ${positionClass}`;
+                node.setAttribute('data-index', index);
+
+                node.innerHTML = `
+                    <div class="node-interactive-block">
+                        <div class="date-badge">${dateStr}</div>
+                        <button class="push-button ${checkedStates[index] ? 'completed' : ''}" onclick="toggleStep(${index}, this)">
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        </button>
+                    </div>
+                    <div class="content-card">
+                        <span class="course-tag">${item.course} • ${item.title}</span>
+                        <h3>${item.section}</h3>
+                        <div class="growth-task-box">
+                            <strong>🎯 Daily Pipeline Metric:</strong> ${growthTask}
+                        </div>
+                        <div class="qa-box">
+                            <span class="qa-title">🧠 Core Technical Verification Exercise:</span>
+                            ${interviewQ}
+                        </div>
+                    </div>
+                `;
+                roadmapContainer.appendChild(node);
+            });
+
+            // Delay draw slightly to allow layouts to compute pixel properties correctly
+            setTimeout(drawCurvyLines, 100);
+            updateProgressBar();
+        }
+
+        function drawCurvyLines() {
+            const nodes = document.querySelectorAll('.node-interactive-block');
+            const bgLine = document.getElementById('bgLine');
+            const activeLine = document.getElementById('activeLine');
+
+            if(nodes.length === 0) return;
+
+            let pathData = "";
+
+            nodes.forEach((node, idx) => {
+                const btn = node.querySelector('.push-button');
+                // Calculate position relative to full container canvas
+                const x = btn.offsetLeft + (btn.offsetWidth / 2);
+                const y = btn.offsetTop + (btn.offsetHeight / 2) + node.parentElement.offsetTop;
+
+                if (idx === 0) {
+                    pathData += `M ${x} ${y}`;
+                } else {
+                    // Grab previous point coordinates
+                    const prevBtn = nodes[idx - 1].querySelector('.push-button');
+                    const prevX = prevBtn.offsetLeft + (prevBtn.offsetWidth / 2);
+                    const prevY = prevBtn.offsetTop + (prevBtn.offsetHeight / 2) + nodes[idx - 1].parentElement.offsetTop;
+
+                    // Create clean cubic bezier control handles for beautiful S curves
+                    const cpY1 = prevY + (y - prevY) / 2;
+                    const cpY2 = prevY + (y - prevY) / 2;
+
+                    pathData += ` C ${prevX} ${cpY1}, ${x} ${cpY2}, ${x} ${y}`;
+                }
+            });
+
+            bgLine.setAttribute('d', pathData);
+            activeLine.setAttribute('d', pathData);
+            animateActivePath();
+        }
+
+        window.toggleStep = function(index, button) {
+            checkedStates[index] = !checkedStates[index];
+            localStorage.setItem('eliteQuestProgressV3', JSON.stringify(checkedStates));
+
+            if(checkedStates[index]) {
+                button.classList.add('completed');
+            } else {
+                button.classList.remove('completed');
+            }
+            updateProgressBar();
+            animateActivePath();
+        }
+
+        function animateActivePath() {
+            const activeLine = document.getElementById('activeLine');
+            const totalLength = activeLine.getTotalLength();
+
+            let completedCount = checkedStates.filter(Boolean).length;
+            let fraction = completedCount / checkedStates.length;
+
+            activeLine.style.strokeDasharray = totalLength;
+            activeLine.style.strokeDashoffset = totalLength - (totalLength * fraction);
+        }
+
+        function updateProgressBar() {
+            let total = checkedStates.length;
+            let completed = checkedStates.filter(Boolean).length;
+            let percent = total > 0 ? Math.round((completed / total) * 100) : 0;
+
+            document.getElementById('globalProgress').style.width = percent + '%';
+            document.getElementById('progressPercent').innerText = percent + '%';
+        }
+
+        window.addEventListener('resize', drawCurvyLines);
+        generateRoadmap();
+    </script>
+</body>
+</html>
